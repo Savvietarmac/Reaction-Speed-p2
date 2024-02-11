@@ -174,8 +174,8 @@ The live link can be found here - [Star views](https://github.com/Savvietarmac/p
 
 ### Media
 
-#### Images
- - Hero image made by Alex Andrews [Pexels](https://www.pexels.com/) pexels-alex-andrews-816608-edited.jpg
+#### Images *new*
+ - Hero image made by Snapwire [Pexels](https://www.pexels.com/photo/adventure-cliff-lookout-people-6763/)
 
 
 #### Icons
