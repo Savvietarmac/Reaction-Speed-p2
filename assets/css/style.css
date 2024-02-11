@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/*Main content*/
 
 body {
     height: 100vh;
@@ -12,28 +13,13 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 div {
     height: 60px;
     width: 100vw;
-}
-
-.heading {
-    
-}
-
-.background-default {
-    height: 100vh;
-    width: 100vw;
-    background: url(../images/hero-image.jpg) no-repeat center / cover;
-    position: absolute;
-    z-index: -1;
-    opacity: 80%;
-}
-
-.start-screen {
-
 }
 
 footer {
@@ -42,4 +28,72 @@ footer {
     position: fixed;
     bottom: 0%;
     background-color: beige;
+}
+
+header {
+    height: 60px;
+    width: 100vw;
+    margin: 0;
+    position: fixed;
+    top: 0%;
+    background-color: beige;
+}
+
+.heading {
+    height: 60px;
+    width: 100vw;
+    margin: 0;
+    position: fixed;
+    top: 0%;
+    background-color: beige;
+    font-size: 25px;
+}
+
+/*Nav*/
+
+nav {
+    position: fixed;
+    display: inline-block;
+    top: 10%;
+    height: 40px;
+    width: 100vw;
+}
+
+.nav-button-1 {
+    height: 40px;
+    width: 80px;
+    margin-right: 20vw;
+}
+
+.nav-button-2 {
+    height: 40px;
+    width: 80px;
+    margin-left: 20vw;
+}
+
+/*Hero image*/
+.background-default {
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/hero-image.jpg) no-repeat center / cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 80%;   
+}
+
+/*Test start screen*/
+.start-screen {
+    height: 180px;
+    width: 100vw;
+    display: flex;
+    background-color: crimson;
+    flex-direction: column;
+    align-items: center;
+}
+
+#button-default{
+    height: 40px;
+    width: 120px;
+    position: relative;
+    margin-top: 40px;
 }
