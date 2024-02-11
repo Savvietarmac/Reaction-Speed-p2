@@ -20,23 +20,19 @@ Users will discover new ideas about what a star can be and learn new things and 
 ## Wireframes 
 Bellow are my early designs for the Star Views web project.
 
-### Index Page
+### Index Page *new*
 ##### Widescreen
-![Index page Wireframe wide](assets/readme/Wireframe-index-widescreen.p1.png)
+![Index page Wireframe wide](assets/readme/wireframe-screen-index.p2.png)
 ##### Phone
-![Index page Wireframe phone](assets/readme/wireframe-index-phone.p1.png)
+![Index page Wireframe phone](assets/readme/wireframe-phone-index.p2.png)
 
-### Guide Page
+### Start Of Test *new*
 ##### Widescreen
-![Guide page Wireframe wide](assets/readme/wireframe-guide-widescreen.p1.png)
+![Start of test page Wireframe wide](assets/readme/wireframe-screen-start.p2.png)
 ##### Phone
-![Guide page Wireframe phone](assets/readme/wireframe-guide-phone.p1.png)
+![Start of test page Wireframe phone](assets/readme/wireframe-phone-start.p2.png)
 
-### Survey Page
-##### Widescreen
-![Survey page Wireframe wide](assets/readme/Wireframe-survey-widescreen.p1.png)
-##### Phone
-![Survey page Wireframe phone](assets/readme/wireframe-survey-phone.p1.png)
+### 
 
 ***
 
