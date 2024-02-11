@@ -174,7 +174,7 @@ The live link can be found here - [Star views](https://github.com/Savvietarmac/p
  - Hero image made by Snapwire [Pexels](https://www.pexels.com/photo/adventure-cliff-lookout-people-6763/)
 
 
-#### Icons
+#### Icons *new but same*
  - Favicons taken from [Favicon](https://favicon.io/favicon-converter/)
 
 
