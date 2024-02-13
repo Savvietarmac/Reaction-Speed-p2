@@ -45,16 +45,16 @@ Bellow are my early designs for the Star Views web project.
  ##### Footer
  ![Footer](assets/readme/footer.p1.png)
 
-- __Colors__ 
-  - Colors for the website ![Colors](assets/readme/Color-project.p1.png)
+- __Colors__  
+  - Colors for the website ![Colors]()
 
 - __fonts__ *new*
   - fonts from google fonts [font](https://fonts.google.com/specimen/Nanum+Gothic?query=sand)
 
 - __Index__
-  - The index page has an explanation as to the purpose of the webpage.
-  - The index has a playable video.
-  - The index page has a hero image.
+  - 
+  - 
+  - 
  ![Index page](assets/readme/Index-page-screen.p1.png)
 
 ***

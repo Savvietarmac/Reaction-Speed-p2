@@ -27,16 +27,22 @@ footer {
     width: 100vw;
     position: fixed;
     bottom: 0%;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.6);
+}
+
+footer i {
+    width: 40vw;
+    margin-top: 15px;
+    color: black;
 }
 
 header {
-    height: 60px;
+    height: 80px;
     width: 100vw;
     margin: 0;
     position: fixed;
     top: 0%;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.6);
 }
 
 .heading {
@@ -45,8 +51,8 @@ header {
     margin: 0;
     position: fixed;
     top: 0%;
-    background-color: beige;
     font-size: 25px;
+    margin-top: 20px;
 }
 
 /*Nav*/
@@ -57,18 +63,23 @@ nav {
     top: 10%;
     height: 40px;
     width: 100vw;
+    margin-top: 30px;
 }
 
 .nav-button-1 {
     height: 40px;
     width: 80px;
-    margin-right: 20vw;
+    margin-right: 40px;
+    background-color: rgba(165, 42, 42, 0.8);
+    font-size: large;
 }
 
 .nav-button-2 {
     height: 40px;
     width: 80px;
-    margin-left: 20vw;
+    margin-left: 40px;
+    background-color: rgba(165, 42, 42, 0.8);
+    font-size: large;
 }
 
 /*Hero image*/
@@ -84,16 +95,196 @@ nav {
 /*Test start screen*/
 .start-screen {
     height: 180px;
-    width: 100vw;
+    width: 80vw;
     display: flex;
-    background-color: crimson;
+    background-color: rgba(255, 0, 0, 0.6);
     flex-direction: column;
     align-items: center;
+    font-size: 1.2rem;
 }
 
 #button-default{
     height: 40px;
     width: 120px;
     position: relative;
-    margin-top: 40px;
+    margin-top: 15px;
+}
+
+i {
+    font-size: 2rem;
+}
+
+/* for phones that are turned sideways */
+@media screen and (min-width: 653px) {
+
+    header {
+        height: 40px;
+        width: 100vw;
+        margin: 0;
+        position: fixed;
+        top: 0%;
+        background-color: rgba(245, 245, 220, 0.6);
+    }
+
+    .heading {
+        height: 30px;
+        width: 100vw;
+        margin: 0;
+        position: fixed;
+        top: 0%;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 30px;
+        width: 100vw;
+        position: fixed;
+        bottom: 0%;
+        background-color: rgba(245, 245, 220, 0.6);
+    }
+
+    footer i {
+        width: 40vw;
+        margin-top: 0px;
+        color: black;
+    }
+
+    .start-screen {
+        height: 160px;
+        width: 40vw;
+        display: flex;
+        background-color: rgba(255, 0, 0, 0.6);
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
+    nav {
+        position: fixed;
+        display: inline-block;
+        top: 10%;
+        height: 40px;
+        width: 100vw;
+        margin-top: 20px;
+    }
+
+    .nav-button-1 {
+        height: 40px;
+        width: 80px;
+        margin-right: 200px;
+    }
+    
+    .nav-button-2 {
+        height: 40px;
+        width: 80px;
+        margin-left: 200px;
+    }
+}   
+/* tablets and larger */
+@media screen and (min-width: 768px) {
+    
+    header {
+        height: 80px;
+        width: 100vw;
+        margin: 0;
+        position: fixed;
+        top: 0%;
+        background-color: rgba(245, 245, 220, 0.6);
+    }
+
+    .heading {
+        height: 30px;
+        width: 100vw;
+        margin: 0;
+        position: fixed;
+        top: 0%;
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+    footer {
+        height: 60px;
+        width: 100vw;
+        position: fixed;
+        bottom: 0%;
+        background-color: rgba(245, 245, 220, 0.6);
+    }
+
+    footer i {
+        width: 40vw;
+        margin-top: 0px;
+        color: black;
+        font-size: 60px;
+    }
+
+    .start-screen {
+        height: 160px;
+        width: 40vw;
+        display: flex;
+        background-color: rgba(255, 0, 0, 0.6);
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
+    nav {
+        position: fixed;
+        display: inline-block;
+        top: 10%;
+        height: 40px;
+        width: 100vw;
+        margin-top: 20px;
+    }
+
+    .nav-button-1 {
+        height: 40px;
+        width: 80px;
+        margin-right: 200px;
+    }
+    
+    .nav-button-2 {
+        height: 40px;
+        width: 80px;
+        margin-left: 200px;
+    }
+}  
+/* laptop and larger */
+@media screen and (min-width: 1024px) {
+   
+    .nav-button-1 {
+        height: 40px;
+        width: 80px;
+        margin-right: 400px;
+    }
+    
+    .nav-button-2 {
+        height: 40px;
+        width: 80px;
+        margin-left: 400px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    
+    .start-screen {
+        height: 160px;
+        width: 25vw;
+        display: flex;
+        background-color: rgba(255, 0, 0, 0.6);
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
+    .nav-button-1 {
+        height: 40px;
+        width: 80px;
+        margin-right: 600px;
+    }
+    
+    .nav-button-2 {
+        height: 40px;
+        width: 80px;
+        margin-left: 600px;
+    }
 }
