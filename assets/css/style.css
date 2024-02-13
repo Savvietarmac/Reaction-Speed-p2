@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-/*Main content*/
 
+/*Main content*/
 body {
     height: 100vh;
     width: 100vw;
@@ -264,6 +264,7 @@ i {
         margin-left: 400px;
     }
 }
+/* wide widescreen*/
 @media screen and (min-width: 1200px) {
     
     .start-screen {
