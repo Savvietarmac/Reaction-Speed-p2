@@ -21,6 +21,25 @@ div {
     height: 60px;
     width: 100vw;
 }
+/*The test screens*/
+.blackscreen {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+}
+.greenscreen {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    color: green;
+}
+.yellowscreen {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    color: yellow;
+}
 
 footer {
     height: 60px;
