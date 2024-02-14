@@ -27,24 +27,24 @@ div {
     display: none;
     height: 100vh;
     width: 100vw;
-    color: black;
-    z-index: 2;
+    background-color: black;
+    z-index: -2;
 }
 .greenscreen {
     position: absolute;
     display: none;
     height: 100vh;
     width: 100vw;
-    color: green;
-    z-index: 3;
+    background-color: green;
+    z-index: -2;
 }
 .yellowscreen {
     position: absolute;
     display: none;
     height: 100vh;
     width: 100vw;
-    color: yellow;
-    z-index: 3;
+    background-color: yellow;
+    z-index: -2;
 }
 
 footer {
@@ -112,7 +112,7 @@ nav {
     height: 100vh;
     width: 100vw;
     background: url(../images/hero-image.jpg) no-repeat center / cover;
-    position: absolute;
+    position: fixed;
     z-index: -1;
     opacity: 80%;   
 }
