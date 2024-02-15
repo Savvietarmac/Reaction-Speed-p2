@@ -1,24 +1,24 @@
-# Star Views Webpage
-The Star View website is made for everyone who has an intrest in stars or would like to get intrested in the subject.
+# Star Views Webpage *new*
+The Star View website is made for anyone who is intrested in learning about how fast their reaction speed is
 
-Users will discover new ideas about what a star can be and learn new things and new theories to make the user think.
-[Star Views](https://savvietarmac.github.io/p1-star-views)
+
+[Reaction Speed](https://github.com/Savvietarmac/Reaction-Speed.p2)
 
 ![Ui Responsivenes](assets/readme/Ui-dev-responsivnes.p1.png)
 
-## User Stories
+## User Stories *new*
 
  |Story no. |Story|
  | -------- | -------- |
- |1|As a new user, <br>I want to further my intrest in stars. <br>So that i can develop or further such an intrest.<br><br>I know i am done when the user can navigate from the homepage to the guide.|
- |2|<br><br><br><br>|
- |3|<br><br><br><br>|
- |4|<br><br><br><br>|
+ |1|As a new user, <br>I want to learn what my reaction speed is<br>So that i can understand how fast my reactions are<br><br>I know i am done when the user can use the click here button to do this.|
+ |2|As a new user,<br>I want to be able to see what my reaction speed is<br>So that i can see how fast i am<br><br>I know i am done when the user can use the website to see the score.|
+ |3|As a new user,<br>I want to learn how to use the website<br>So that i can learn how the test is done<br><br>I know i am done when the user has a help button to do so.|
+ |4|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast am and how fast i was compared to before<br><br>I know i am done when the user can use the score button to do this.|
 
  ***
 
-## Wireframes 
-Bellow are my early designs for the Star Views web project.
+## Wireframes *Done*
+Bellow are my early designs for the reaction speed web project.
 
 ### Index Page *new*
 ##### Widescreen
@@ -36,13 +36,13 @@ Bellow are my early designs for the Star Views web project.
 
 ***
 
-## Features
-- __All pages__
-  - The website has the name of the website in the header on all pages.
+## Features *new*
 
  ##### Header and Nav
+ - Header has the name of the website.
  ![Header and nav](assets/readme/Header-nav.p1.png)
  ##### Footer
+ - Has links to further resources
  ![Footer](assets/readme/footer.p1.png)
 
 - __Colors__  
@@ -52,16 +52,18 @@ Bellow are my early designs for the Star Views web project.
   - fonts from google fonts [font](https://fonts.google.com/specimen/Nanum+Gothic?query=sand)
 
 - __Index__
-  - 
-  - 
-  - 
+  - Header at the top
+  - Footer at the bottom
+  - Nav to the sides by the top
+  - Start button in the center
+  - Hero image in the background
  ![Index page](assets/readme/Index-page-screen.p1.png)
 
 ***
 
-## Testing
+## Testing *Need to do*
 
-### validator Testing
+### validator Testing *Need to do*
 
  - HTML
     - Index: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Findex.html
@@ -71,7 +73,7 @@ Bellow are my early designs for the Star Views web project.
  - CSS 
     - No errors were found using the official jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fthank-you.html&usermedium=all&vextwarning=&warning=1
 
-### User Stories Testing
+### User Stories Testing *need to do*
 
  | Story no. | Result | Story/evidence |
  | -------- | -------- | ---------- |
@@ -80,7 +82,7 @@ Bellow are my early designs for the Star Views web project.
  |3|Test Pass|<br><br><br><br><br><br> ![Survey page](assets/readme/Survey-page-screen.p1.png)|
  |4|Test Pass|<br><br><br><br><br><br> ![Survey page](assets/readme/Survey-page-screen.p1.png)| 
 
-### Accessiblity Testing
+### Accessiblity Testing *need to do*
 
 Using lighthouse to rate the accesability of the webpage. Results are:
 ##### Index
@@ -92,14 +94,14 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 ##### Thank you
 ![Thank-you](assets/readme/Thank-you-page.p1.png)<br>
 
-### Manual Testing
+### Manual Testing *need to do*
  - I have tested this website on diffrent web browsers.
  - I have tested that the website is responsive to diffrent screen sizes. It works in multiple diffrent screen sizes.
  - I have tested the links in the header, footer and the survey page. they all work
  - I have tested the text and its fonts are readable and scroll where necessary.
  - I have checked that the form sends the data to the correct place when submitted.
 
-#### Desktop
+#### Desktop *need to do*
 |chrome 121.0.6167.139|Firefox 122.0|
 | --- | --- |
 |![Chrome](assets/readme/Google-chrome-widescreen.p1.png)|![Firefox](assets/readme/Fifrefox-widescreen.p1.png)|
@@ -115,7 +117,7 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 |![Chrome](assets/readme/Google-chrome-phone.p1.png)|![Firefox](assets/readme/Firefox-mobile.p1.png)|
 
 
-### Fixed Bugs
+### Fixed Bugs *need to do*
 
 #### Widescreen Whitespace Bug
  - On larger screens the right side of the page had a horizontal slider that created unwanted whitespace.
@@ -125,11 +127,11 @@ Using lighthouse to rate the accesability of the webpage. Results are:
  - On mobile the webpage suffered sizing related issues when a smaler screen turned sideways.
 
 
-## Deployment
+## Deployment *Done*
 
 ### Cloning & Forking
 #### Fork
-1. On GitHub.com, navigate to the [Savvietarmac/p1-star-views](https://github.com/Savvietarmac/p1-star-views) repository.
+1. On GitHub.com, navigate to the [Savvietarmac/Reaction-Speed.p2](https://github.com/Savvietarmac/Reaction-Speed.p2) repository.
 2. In the top-right corner of the page, click Fork.
 3. By default, forks are named the same as their parent repositories. You can change the name of the 
 4. fork to distinguish it further.
@@ -146,7 +148,7 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 ### Local Deployment
 1. Sign up to [Gitpod](https://github.io/)
 2. Download the Gitpod browser extension.
-3. On GitHub.com, navigate to the [Savvietarmac/p1-star-views](https://github.com/Savvietarmac/p1-star-views) repository. 
+3. On GitHub.com, navigate to the [Savvietarmac/Reaction-Speed.p2](https://github.com/Savvietarmac/p1-star-views) repository. 
 4. Above the list of files click the button that says 'Gitpod'.
 
 ### Remote Deployment
@@ -157,7 +159,7 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 5. From the source drop down list under the heading Build and deployment, select main.
 6. The page will hten provide the link to the website.
 
-The live link can be found here - [Star views](https://github.com/Savvietarmac/p1-star-views)
+The live link can be found here - [Reaction Speed](https://savvietarmac.github.io/Reaction-Speed.p2/)
 
 
 ***
@@ -165,8 +167,6 @@ The live link can be found here - [Star views](https://github.com/Savvietarmac/p
 ## Credits
 
 ### Content
- - Used love running as an example for how to create a header and footer. [CI Love Running](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.6-making-the-header-responsive)
-
 
 ### Media
 
@@ -176,7 +176,3 @@ The live link can be found here - [Star views](https://github.com/Savvietarmac/p
 
 #### Icons *new but same*
  - Favicons taken from [Favicon](https://favicon.io/favicon-converter/)
-
-
-#### Videos
- - Astronaut video made by Lisa Fotios taken from [Pexels](https://www.pexels.com/) 2-astronauts.mp4 
