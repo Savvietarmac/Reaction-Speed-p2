@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,16 +18,40 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon//favicon-16x16.png">
     <title>Reaction speed test</title>
 </head>
+
 <body>
-    <section>
-        <table>
+    <header>
+        <h1 class="heading">Reaction Speed Test</h1>
+    </header>
+    <nav>
+        <a href="index.html" aria-label="link to index"><button class="nav-button-1">Back</button></a>
+        <button class="nav-button-2" aria-label="opens help"
+            onclick="alert('When green *Click*, When yellow do not *Click*');">Help</button>
+    </nav>
+    <div class="background-default">
+    </div>
+    <div class="blackscreen"></div>
+    <div class="greenscreen"></div>
+    <div class="yellowscreen"></div>
+    <div class="start-screen">
+        <th>
             <tr>
-                <td></td>
+                <td>name</td>
+                <td>score</td>
             </tr>
-        </table>
-    </section>
+        </th>
+    </div>
+
+    <footer>
+        <a href="https://www.youtube.com/" target="_blank" aria-label="link to youtube opened in new tab"><i
+                class="fa-brands fa-square-youtube"></i></a>
+        <a href="https://en.wikipedia.org/wiki/Mental_chronometry" target="_blank"
+            aria-label="link to wikipedia opened in new tab"><i class="fa-brands fa-wikipedia-w"></i></a>
+    </footer>
+
 
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/74f63daefb.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

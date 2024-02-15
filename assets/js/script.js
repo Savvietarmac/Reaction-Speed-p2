@@ -1,47 +1,35 @@
-let time = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,] // All the individual test times
-let score = 0 // The eventual score of time/10 for a median of reactionspeed
-let initial = document.getElementById("button-default") // start of test
-let black = document.getElementsByClassName("blackscreen") // black background
-let green = document.getElementsByClassName("greenscreen") // green click screen
-let yellow = document.getElementsByClassName("yellowscreen") // yellow do not click screen
-
 document.addEventListener("DOMContentLoaded", function () {
+    hideScreens();
+    let initial = document.getElementById("button-default"); // Start of test button
+
     initial.addEventListener("click", function() {
-        black.style.zindex = 2;
-    })
+        document.querySelector(".start-screen").style.display = "none";
+        showRandomScreen();
+    });
 
-})
+    // Function to hide all screens
+    function hideScreens() {
+        document.querySelector('.blackscreen').style.display = 'none';
+        document.querySelector('.greenscreen').style.display = 'none';
+        document.querySelector('.yellowscreen').style.display = 'none';
+    }
 
-black.addEventListener("click", e => {
+// Function to show a random screen
+function showRandomScreen() {
+    hideScreens(); // Ensure all screens are hidden before showing a new one
+    const screens = ['.blackscreen', '.greenscreen', '.yellowscreen'];
+    const randomIndex = Math.floor(Math.random() * screens.length); // Pick a random screen
+    const selectedScreen = document.querySelector(screens[randomIndex]);
+    selectedScreen.style.display = 'block';
 
-})
+    let startTime = Date.now(); // Record the time when the screen is shown
 
-green.addEventListener("click", e => {
-
-})
-
-yellow.addEventListener("click", e => {
-
-})
-
-initial.addEventListener("click", e => {
-
-})
-
-initial.addEventListener("click", e => {
-
-})
-
-
-
-
-
-
-function test() {
-
-    black.style.zindex; "2";
-
-    black.style.display = "none";
-    green.style.display = "none";
-    yellow.style.display = "none";
+    // Add click listener to the selected screen
+    selectedScreen.addEventListener('click', function() {
+        let endTime = Date.now(); // Record the time when the screen is clicked
+        let reactionTime = endTime - startTime; // Calculate reaction time in milliseconds
+        console.log(screens[randomIndex].slice(1) + ' screen clicked', 'Reaction time: ' + reactionTime + ' ms'); // Log color and reaction time
+        showRandomScreen(); // Show a new random screen
+    }, { once: true }); // Use { once: true } to ensure the listener is removed after execution
 }
+});
