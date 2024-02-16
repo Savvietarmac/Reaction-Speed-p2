@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     hideScreens();
     let initial = document.getElementById("button-default"); // Start of test button
-
+    let score;
     initial.addEventListener("click", function () {
         document.querySelector(".start-screen").style.display = "none";
         showRandomScreen();
@@ -52,10 +52,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 showScreen(); // new but maybe good enough?
             } else {
                 console.log('Green screen clicked', 'Reaction time: ' + reactionTime + ' ms'); // Log for green screen
-                let score = reactionTime; // score for values to be put into
+                score = reactionTime; // score for values to be put into
                 console.log(score)
                 showScreen(); //instead of multiple do just one for now
-
+                LeaderBoard();
             }
 
             showBlackScreen(); // Proceed to show black screen
@@ -76,6 +76,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }, randomTime);
     }
 
+    // New but actually works hallelujah
+    function LeaderBoard() {
+        let sidebarscore = document.getElementById("sidebarscore");
+        sidebarscore.innerHTML = score + " Msec";
+        }
 });
 /*/local storage 
 localStorage.setItem('final', JSON.stringify(storeHighscore));
