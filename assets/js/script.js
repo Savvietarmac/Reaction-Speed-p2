@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Function to show a random screen
 function showRandomScreen() {
     hideScreens(); // Ensure all screens are hidden before showing a new one
-    const screens = ['.blackscreen', '.greenscreen', '.yellowscreen'];
+    const screens = ['.blackscreen', '.greenscreen', '.yellowscreen']; // should remove .blackscreen ask for advice
     const randomIndex = Math.floor(Math.random() * screens.length); // Pick a random screen
     const selectedScreen = document.querySelector(screens[randomIndex]);
     selectedScreen.style.display = 'block';
@@ -36,6 +36,7 @@ function showRandomScreen() {
     // to make sure the game ends after 10 greenscreensclicks
     for (greenscreen = 0; greenscreen <= 10; i++) {
         endTest();
+        sidebar-score
     }
 
     // Ends the Test
@@ -50,7 +51,13 @@ function showRandomScreen() {
 
     }
 
-    
+    // a calc function made to add endtime to the score array and then calculate the median
+    function calc() {
+        let score = []
+        let scoreAdd = reaction.pop(score)
+        let finalScore = score / score.length
+        LeaderBoard();
+    }
     */
 }
 });
