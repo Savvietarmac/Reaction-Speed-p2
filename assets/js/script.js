@@ -38,9 +38,19 @@ function showRandomScreen() {
         endTest();
     }
 
-    function endtest() {
+    // Ends the Test
+    function endTest() {
         break; // how do i break / end the game?
     }
+
+    // made to not have the yellow and green
+    if (randomIndex === .greenscreen) {
+
+    } else {
+
+    }
+
+    
     */
 }
 });
