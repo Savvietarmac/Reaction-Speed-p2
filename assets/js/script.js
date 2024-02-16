@@ -85,10 +85,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // add score to score.html
     function scorePage() {
+        let list1 = document.getElementById("scorelist");
         let scoreList = document.createElement("li");
-        let textList = document.createTextNode(score + " msec");
+        let textList = document.createTextNode(score + " Msec");
         scoreList.appendChild(textList);
-        document.getElementById("scorelist").appendChild(scoreList);
+
     }
 
 });
@@ -106,7 +107,12 @@ let storedscore = JSON.parse(localStorage.getItem('score'));
   }
   console.log(finalScore)
 */
-
+/*//scorepage removed
+        let scoreList = document.createElement("li");
+        let textList = document.createTextNode(score + " msec");
+        scoreList.appendChild(textList);
+        document.getElementById("scorelist").appendChild(scoreList);
+*/
 
 /*
 // Ends the Test
