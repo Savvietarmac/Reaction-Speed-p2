@@ -22,6 +22,14 @@ div {
     width: 100vw;
 }
 
+table {
+    overflow: scroll;
+}
+
+td {
+    font-size: 130%;
+}
+
 /*The test screens*/
 #sidebar {
     margin-top: 10%;
@@ -146,6 +154,7 @@ nav {
     flex-direction: column;
     align-items: center;
     font-size: 1.2rem;
+    overflow: auto;
 }
 
 #button-default {
