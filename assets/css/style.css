@@ -22,25 +22,34 @@ div {
     width: 100vw;
 }
 /*The test screens*/
+.gamescreen {
+    height: 180px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
 .blackscreen {
-    position: absolute;
+    position: relative;
     display: none;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: black;
 }
 .greenscreen {
-    position: absolute;
+    position: relative;
     display: none;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: green;
 }
 .yellowscreen {
-    position: absolute;
+    position: relative;
     display: none;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: yellow;
 }
 
@@ -172,6 +181,15 @@ i {
         color: black;
     }
 
+    .gamescreen {
+        height: 160px;
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
     .start-screen {
         height: 160px;
         width: 40vw;
@@ -240,6 +258,15 @@ i {
         font-size: 60px;
     }
 
+    .gamescreen {
+        height: 160px;
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
     .start-screen {
         height: 160px;
         width: 40vw;
@@ -289,6 +316,15 @@ i {
 /* wide widescreen*/
 @media screen and (min-width: 1200px) {
     
+    .gamescreen {
+        height: 160px;
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
     .start-screen {
         height: 160px;
         width: 25vw;
