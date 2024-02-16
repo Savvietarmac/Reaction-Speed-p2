@@ -1,5 +1,5 @@
-# Star Views Webpage *new*
-The Star View website is made for anyone who is intrested in learning about how fast their reaction speed is
+# Reaction Speed Webpage *new*
+The Reaction Speed website is made for anyone who is intrested in learning about how fast their reaction speed is.
 
 
 [Reaction Speed](https://github.com/Savvietarmac/Reaction-Speed.p2)
@@ -88,11 +88,7 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 ##### Index
 ![Index](assets/readme/Index-page.p1.png)<br>
 ##### Guide
-![Guide](assets/readme/Guide-page.p1.png)<br>
-##### Survey
-![Survey](assets/readme/Survey-page.p1.png)<br>
-##### Thank you
-![Thank-you](assets/readme/Thank-you-page.p1.png)<br>
+![Score](assets/readme/Guide-page.p1.png)<br>
 
 ### Manual Testing *need to do*
  - I have tested this website on diffrent web browsers.
@@ -120,11 +116,7 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 ### Fixed Bugs *need to do*
 
 #### Widescreen Whitespace Bug
- - On larger screens the right side of the page had a horizontal slider that created unwanted whitespace.
 
-
-#### Sideways Screens Bug
- - On mobile the webpage suffered sizing related issues when a smaler screen turned sideways.
 
 
 ## Deployment *Done*
