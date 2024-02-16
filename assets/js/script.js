@@ -17,10 +17,21 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to show a random screen
     function showRandomScreen() {
         hideScreens(); // Ensure all screens are hidden before showing a new one
-        const screens = ['.blackscreen', '.greenscreen', '.yellowscreen']; // should remove .blackscreen ask for advice *
+        const screens = ['.greenscreen', '.yellowscreen']; // We'll handle the blackscreen separately
         const randomIndex = Math.floor(Math.random() * screens.length); // Pick a random screen
-        const selectedScreen = document.querySelector(screens[randomIndex]);
-        selectedScreen.style.display = 'block';
+        let selectedScreen;
+
+        if (screens[randomIndex] === '.yellowscreen') {
+            selectedScreen = document.querySelector(screens[randomIndex]);
+            selectedScreen.style.display = 'block';
+            setTimeout(function () {
+                selectedScreen.style.display = 'none';
+                showBlackScreen(); // Show black screen after yellow
+            }, 2000); // Display yellow for exactly 2 seconds
+        } else {
+            selectedScreen = document.querySelector(screens[randomIndex]);
+            selectedScreen.style.display = 'block';
+        }
 
         let startTime = Date.now(); // Record the time when the screen is shown
 
@@ -28,17 +39,32 @@ document.addEventListener("DOMContentLoaded", function () {
         selectedScreen.addEventListener('click', function () {
             let endTime = Date.now(); // Record the time when the screen is clicked
             let reactionTime = endTime - startTime; // Calculate reaction time in milliseconds
-            console.log(screens[randomIndex].slice(1) + ' screen clicked', 'Reaction time: ' + reactionTime + ' ms'); // Log color and reaction time
-            showRandomScreen(); // Show a new random screen
+
+            if (selectedScreen.classList.contains('yellowscreen')) {
+                console.error('Error: Yellow screen clicked'); // Show error for yellow screen
+            } else {
+                console.log('Green screen clicked', 'Reaction time: ' + reactionTime + ' ms'); // Log for green screen
+            }
+
+            showBlackScreen(); // Proceed to show black screen
         }, { once: true }); // Use { once: true } to ensure the listener is removed after execution
+    }
 
-        /*
-        // to make sure the game ends after 10 greenscreensclicks
-        for (greenscreen = 0; greenscreen <= 10; i++) {
-            endTest();
-            sidebar - score();
-        }
+    // Function to handle the display and timing of the black screen
+    function showBlackScreen() {
+        hideScreens();
+        const blackScreen = document.querySelector('.blackscreen');
+        blackScreen.style.display = 'block';
 
+        const randomTime = Math.floor(Math.random() * (5000 - 2000 + 1) + 2000); // Random time between 2-5 seconds
+
+        setTimeout(function () {
+            blackScreen.style.display = 'none';
+            showRandomScreen(); // Show a new random screen after the timeout
+        }, randomTime);
+    }
+});//local storage 
+            /*
         // Ends the Test
         function endTest() {
             break; // how do i break / end the game?
@@ -78,6 +104,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.write("<h1>Hello World!</h1>"); // could us perhaps with attribute in html
         //Inbetween every black screen  Math.floor(Math.random() * 4) for randomScreen to show
-        */
-    }
-});
+        
+    }*/
