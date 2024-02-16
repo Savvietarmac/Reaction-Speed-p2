@@ -22,11 +22,6 @@ div {
     width: 100vw;
 }
 
-td {
-    font-size: 130%;
-    padding: 10px;
-}
-
 /*The test screens*/
 #sidebar {
     margin-top: 10%;
