@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to show a random screen
     function showRandomScreen() {
         hideScreens(); // Ensure all screens are hidden before showing a new one
-        const screens = ['.blackscreen', '.greenscreen', '.yellowscreen']; // should remove .blackscreen ask for advice
+        const screens = ['.blackscreen', '.greenscreen', '.yellowscreen']; // should remove .blackscreen ask for advice *
         const randomIndex = Math.floor(Math.random() * screens.length); // Pick a random screen
         const selectedScreen = document.querySelector(screens[randomIndex]);
         selectedScreen.style.display = 'block';
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // to make sure the game ends after 10 greenscreensclicks
         for (greenscreen = 0; greenscreen <= 10; i++) {
             endTest();
-            sidebar-score
+            sidebar-score();
         }
     
         // Ends the Test
@@ -53,31 +53,31 @@ document.addEventListener("DOMContentLoaded", function () {
     
         // a calc function made to add endtime to the score array and then calculate the median
         function calc() {
-            let score = []
-            let scoreAdd = reaction.pop(score)
-            let finalScore = score / score.length // might use .map() for targeting every element in score
+            let score = [];
+            let scoreAdd = reaction.pop(score);
+            let finalScore = score / score.length; // might use .map() for targeting every element in score
             LeaderBoard();
         }
     
     
         // made to input score in sidebar and into score.html
         function LeaderBoard() {
-            let sidebarS = document.getElementById("sidebarscore")
-            sidebarS.innerHTML = `${finalScore} Sec`
-    
-            for 
+            let sidebarS = document.getElementById("sidebarscore");,
+            sidebarS.innerHTML = `${finalScore} Sec`;
         }
-    
-        function storeHighscore() {
+        
+        //add new text to score.html        
+        function storeHighscore() { 
             let table = document.table;
-            table.appendChild(newAttempt, newScore)
-            let newAttempt = document.createElement=("td")
-            newAttempt.innerHTML = (i++)
-            let newScore = document.createElement("td")
-            newScoreRow.innnerHTML = `${final}`
+            table.appendChild(newAttempt, newScore);
+            let newAttempt = document.createElement=("td");
+            newAttempt.innerHTML = (i++);
+            let newScore = document.createElement("td");
+            newScoreRow.innnerHTML = finalScore;
         }
     
         document.write("<h1>Hello World!</h1>"); // could us perhaps with attribute in html
+        //Inbetween every black screen  Math.floor(Math.random() * 4) for randomScreen to show
         */
     }
 });
