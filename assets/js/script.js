@@ -46,7 +46,7 @@ function showRandomScreen() {
 
     // made to not have the yellow and green
     if (randomIndex === .greenscreen) {
-
+        
     } else {
 
     }
@@ -58,6 +58,15 @@ function showRandomScreen() {
         let finalScore = score / score.length
         LeaderBoard();
     }
+
+
+    // made to input score in sidebar and into score.html
+    function LeaderBoard() {
+        let sidebarS = document.getElementById("sidebarscore")
+        sidebarS.innerHTML = `${finalScore}`
+        
+    }
+
     */
 }
 });
