@@ -22,12 +22,9 @@ div {
     width: 100vw;
 }
 
-table {
-    overflow: scroll;
-}
-
 td {
     font-size: 130%;
+    padding: 10px;
 }
 
 /*The test screens*/
