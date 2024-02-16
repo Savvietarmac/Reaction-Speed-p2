@@ -14,6 +14,14 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector('.yellowscreen').style.display = 'none';
     }
 
+    //Used to return the startscreen
+    function showScreen() {
+        document.querySelector('.start-screen').style.display = "flex";
+        document.querySelector('.blackscreen').style.display = 'none';
+        document.querySelector('.greenscreen').style.display = 'none';
+        document.querySelector('.yellowscreen').style.display = 'none';
+    }
+
     // Function to show a random screen
     function showRandomScreen() {
         hideScreens(); // Ensure all screens are hidden before showing a new one
@@ -41,9 +49,13 @@ document.addEventListener("DOMContentLoaded", function () {
             let reactionTime = endTime - startTime; // Calculate reaction time in milliseconds
 
             if (selectedScreen.classList.contains('yellowscreen')) {
-                console.error('Error: Yellow screen clicked'); // Show error for yellow screen
+                showScreen(); // new but maybe good enough?
             } else {
                 console.log('Green screen clicked', 'Reaction time: ' + reactionTime + ' ms'); // Log for green screen
+                let score = reactionTime; // score for values to be put into
+                console.log(score)
+                showScreen(); //instead of multiple do just one for now
+
             }
 
             showBlackScreen(); // Proceed to show black screen
@@ -63,46 +75,47 @@ document.addEventListener("DOMContentLoaded", function () {
             showRandomScreen(); // Show a new random screen after the timeout
         }, randomTime);
     }
-});//local storage 
-            /*
-        // Ends the Test
-        function endTest() {
-            break; // how do i break / end the game?
-        }
 
-        // made to not have the yellow and green
-        if (randomIndex === screen[1]) {
+});
+/*/local storage 
+localStorage.setItem('final', JSON.stringify(storeHighscore));
+let storedscore = JSON.parse(localStorage.getItem('score'));
+let storedscore = JSON.parse(localStorage.getItem('score'));
+  let  storedScore = JSON.parse(localStorage.getItem('score'));
 
-        } else {
-
-        }
-
-        // a calc function made to add endtime to the score array and then calculate the median
-        function calc() {
-            let score = [];
-            let scoreAdd = reaction.pop(score);
-            let finalScore = score / score.length; // might use .map() for targeting every element in score
-            LeaderBoard();
-        }
+  //for loop 
+  let score = [0];
+  let finalScore = 0;
+  for (let i = 0; i <= score.length; i++) {
+    finalScore += score[i]
+  }
+  console.log(finalScore)
+*/
 
 
-        // made to input score in sidebar and into score.html
-        function LeaderBoard() {
-            let sidebarS = document.getElementById("sidebarscore");
-            sidebarS.innerHTML = `${finalScore} Sec`;
-        }
+/*
+// Ends the Test
+function endTest() {
+break; // how do i break / end the game?
+}
 
-        //add new text to score.html        
-        function storeHighscore() {
-            let table = document.table;
-            table.appendChild(newAttempt, newScore);
-            let newAttempt = document.createElement = ("td");
-            newAttempt.innerHTML = (i++);
-            let newScore = document.createElement("td");
-            newScore.innnerHTML = finalScore;
-        }
 
-        document.write("<h1>Hello World!</h1>"); // could us perhaps with attribute in html
-        //Inbetween every black screen  Math.floor(Math.random() * 4) for randomScreen to show
-        
-    }*/
+// made to input score in sidebar and into score.html
+function LeaderBoard() {
+let sidebarS = document.getElementById("sidebarscore");
+sidebarS.innerHTML = `${finalScore} Sec`;
+}
+
+//add new text to score.html        
+function storeHighscore() {
+let table = document.table;
+table.appendChild(newAttempt, newScore);
+let newAttempt = document.createElement = ("td");
+newAttempt.innerHTML = (i++);
+let newScore = document.createElement("td");
+newScore.innnerHTML = finalScore;
+}
+
+document.write("<h1>Hello World!</h1>"); // could us perhaps with attribute in html
+ 
+}*/
