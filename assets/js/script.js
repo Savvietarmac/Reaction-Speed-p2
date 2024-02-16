@@ -47,7 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 score = reactionTime; // score for values to be put into
                 console.log(score)
                 showScreen(); //instead of multiple do just one for now
-                LeaderBoard();
+                current();
+                scorePage();
             }
 
             showBlackScreen(); // Proceed to show black screen
@@ -77,11 +78,18 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // New but actually works hallelujah
-    function LeaderBoard() {
+    function current() {
         let sidebarscore = document.getElementById("sidebarscore");
         sidebarscore.innerHTML = score + " Msec";
     }
 
+    // add score to score.html
+    function scorePage() {
+        let scoreList = document.createElement("li");
+        let textList = document.createTextNode(score + " msec");
+        scoreList.appendChild(textList);
+        document.getElementById("scorelist").appendChild(scoreList);
+    }
 
 });
 /*/local storage 
