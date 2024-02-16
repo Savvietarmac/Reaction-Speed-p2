@@ -14,14 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector('.yellowscreen').style.display = 'none';
     }
 
-    //Used to return the startscreen
-    function showScreen() {
-        document.querySelector('.start-screen').style.display = "flex";
-        document.querySelector('.blackscreen').style.display = 'none';
-        document.querySelector('.greenscreen').style.display = 'none';
-        document.querySelector('.yellowscreen').style.display = 'none';
-    }
-
     // Function to show a random screen
     function showRandomScreen() {
         hideScreens(); // Ensure all screens are hidden before showing a new one
@@ -60,6 +52,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
             showBlackScreen(); // Proceed to show black screen
         }, { once: true }); // Use { once: true } to ensure the listener is removed after execution
+
+            //Used to return the startscreen
+    function showScreen() {
+        document.querySelector('.start-screen').style.display = "flex";
+        document.querySelector('.blackscreen').style.display = 'none';
+        document.querySelector('.greenscreen').style.display = 'none';
+        document.querySelector('.yellowscreen').style.display = 'none';
+    }
+
     }
 
     // Function to handle the display and timing of the black screen
@@ -81,6 +82,8 @@ document.addEventListener("DOMContentLoaded", function () {
         let sidebarscore = document.getElementById("sidebarscore");
         sidebarscore.innerHTML = score + " Msec";
         }
+
+    
 });
 /*/local storage 
 localStorage.setItem('final', JSON.stringify(storeHighscore));
