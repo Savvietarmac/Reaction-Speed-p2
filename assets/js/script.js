@@ -31,5 +31,12 @@ function showRandomScreen() {
         console.log(screens[randomIndex].slice(1) + ' screen clicked', 'Reaction time: ' + reactionTime + ' ms'); // Log color and reaction time
         showRandomScreen(); // Show a new random screen
     }, { once: true }); // Use { once: true } to ensure the listener is removed after execution
+
+    /*
+    // to make sure the game ends after 10 greenscreensclicks
+    for (greenscreen = 0; greenscreen <= 10; i++) {
+        endTest();
+    }
+    */
 }
 });
