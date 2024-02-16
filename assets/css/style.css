@@ -21,13 +21,14 @@ div {
     height: 60px;
     width: 100vw;
 }
+
 /*The test screens*/
 #sidebar {
     margin-top: 10%;
     height: 60px;
     width: 60vw;
     display: flex;
-    background-color: rgba(255, 0, 0, 0.6);
+    background-color: rgba(255, 0, 0, 0.8);
     flex-direction: column;
     align-items: center;
     font-size: 1.2rem;
@@ -49,6 +50,7 @@ div {
     width: 100%;
     background-color: black;
 }
+
 .greenscreen {
     position: relative;
     display: none;
@@ -56,6 +58,7 @@ div {
     width: 100%;
     background-color: green;
 }
+
 .yellowscreen {
     position: relative;
     display: none;
@@ -131,7 +134,7 @@ nav {
     background: url(../images/hero-image.jpg) no-repeat center / cover;
     position: fixed;
     z-index: -1;
-    opacity: 80%;   
+    opacity: 80%;
 }
 
 /*Test start screen*/
@@ -145,7 +148,7 @@ nav {
     font-size: 1.2rem;
 }
 
-#button-default{
+#button-default {
     height: 40px;
     width: 120px;
     position: relative;
@@ -192,8 +195,20 @@ i {
         color: black;
     }
 
+    #sidebar {
+        margin-top: 10px;
+        height: 60px;
+        width: 20vw;
+        display: flex;
+        background-color: rgba(255, 0, 0, 0.8);
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
     .gamescreen {
-        height: 160px;
+        margin-top: 10px;
+        height: 150px;
         width: 40vw;
         display: flex;
         flex-direction: column;
@@ -202,7 +217,8 @@ i {
     }
 
     .start-screen {
-        height: 160px;
+        margin-top: 10px;
+        height: 150px;
         width: 40vw;
         display: flex;
         background-color: rgba(255, 0, 0, 0.6);
@@ -225,16 +241,17 @@ i {
         width: 80px;
         margin-right: 200px;
     }
-    
+
     .nav-button-2 {
         height: 40px;
         width: 80px;
         margin-left: 200px;
     }
-}   
+}
+
 /* tablets and larger */
 @media screen and (min-width: 768px) {
-    
+
     header {
         height: 80px;
         width: 100vw;
@@ -269,6 +286,17 @@ i {
         font-size: 60px;
     }
 
+    #sidebar {
+        margin-top: 10%;
+        height: 60px;
+        width: 15vw;
+        display: flex;
+        background-color: rgba(255, 0, 0, 0.8);
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
     .gamescreen {
         height: 160px;
         width: 40vw;
@@ -302,31 +330,44 @@ i {
         width: 80px;
         margin-right: 200px;
     }
-    
+
     .nav-button-2 {
         height: 40px;
         width: 80px;
         margin-left: 200px;
     }
-}  
+}
+
 /* laptop and larger */
 @media screen and (min-width: 1024px) {
-   
+
     .nav-button-1 {
         height: 40px;
         width: 80px;
         margin-right: 400px;
     }
-    
+
     .nav-button-2 {
         height: 40px;
         width: 80px;
         margin-left: 400px;
     }
 }
+
 /* wide widescreen*/
 @media screen and (min-width: 1200px) {
-    
+
+    #sidebar {
+        margin-top: 10%;
+        height: 60px;
+        width: 15vw;
+        display: flex;
+        background-color: rgba(255, 0, 0, 0.8);
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
     .gamescreen {
         height: 160px;
         width: 25vw;
@@ -351,7 +392,7 @@ i {
         width: 80px;
         margin-right: 600px;
     }
-    
+
     .nav-button-2 {
         height: 40px;
         width: 80px;
