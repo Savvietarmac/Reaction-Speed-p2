@@ -37,6 +37,10 @@ function showRandomScreen() {
     for (greenscreen = 0; greenscreen <= 10; i++) {
         endTest();
     }
+
+    function endtest() {
+        break; // how do i break / end the game?
+    }
     */
 }
 });
