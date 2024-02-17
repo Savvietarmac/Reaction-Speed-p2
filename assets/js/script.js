@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     initial.addEventListener("click", function () {
         document.querySelector(".start-screen").style.display = "none";
         showRandomScreen();
+        document.querySelector('.blackscreen').style.visibility = 'visible';
+        document.querySelector('.greenscreen').style.visibility = 'visible';
+        document.querySelector('.yellowscreen').style.visibility = 'visible';
     });
 
     // Function to hide all screens
@@ -60,6 +63,9 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector('.blackscreen').style.display = 'none';
         document.querySelector('.greenscreen').style.display = 'none';
         document.querySelector('.yellowscreen').style.display = 'none';
+        document.querySelector('.blackscreen').style.visibility = 'hidden';
+        document.querySelector('.greenscreen').style.visibility = 'hidden';
+        document.querySelector('.yellowscreen').style.visibility = 'hidden';
     }
 
     // Function to handle the display and timing of the black screen
