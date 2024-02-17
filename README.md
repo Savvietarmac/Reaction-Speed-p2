@@ -1,4 +1,4 @@
-# Reaction Speed Webpage *new*
+# Reaction Speed Webpage *Done*
 The Reaction Speed website is made for anyone who is intrested in learning about how fast their reaction speed is.
 
 
@@ -6,7 +6,7 @@ The Reaction Speed website is made for anyone who is intrested in learning about
 
 ![Ui Responsivenes](assets/readme/ui.responsive.p2.png)
 
-## User Stories *new*
+## User Stories *new unless storage is fixed*
 
  |Story no. |Story|
  | -------- | -------- |
@@ -88,7 +88,7 @@ Bellow are my early designs for the reaction speed web project.
 
 ## Testing *Need to do*
 
-### validator Testing *Need to do*
+### validator Testing *Need to do all*
 
  - HTML
     - Index: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Findex.html
@@ -102,14 +102,14 @@ Bellow are my early designs for the reaction speed web project.
     - 
     - 
     - 
-### User Stories Testing *need to do*
+### User Stories Testing *Almost done just the last one*
 
  | Story no. | Result | Story/evidence |
  | -------- | -------- | ---------- |
- |1|Test Pass|<br><br><br><br><br><br> ![Header and nav](assets/readme/Header-nav.p1.png) |
- |2|Test Pass|<br><br><br><br><br><br> ![Guide page](assets/readme/Guide-page-screen.p1.png)|
- |3|Test Pass|<br><br><br><br><br><br> ![Survey page](assets/readme/Survey-page-screen.p1.png)|
- |4|Test Pass|<br><br><br><br><br><br> ![Survey page](assets/readme/Survey-page-screen.p1.png)| 
+ |1|Test Pass|As a new user, <br>I want to learn what my reaction speed is<br>So that i can understand how fast my reactions are<br><br>I know i am done when the user can use the click here button to do this.<br>The button begins the test when clicked ![Test Area](assets/readme/testarea.phone.p2.png)|
+ |2|Test Pass|As a new user,<br>I want to be able to see what my reaction speed is<br>So that i can see how fast i am<br><br>I know i am done when the user can use the website to see the score.<br>The sidebar allows the user to see the score. ![Sidebar](assets/readme/sidebar.phone.p2.png)|
+ |3|Test Pass|As a new user,<br>I want to learn how to use the websites test<br>So that i can learn how the test is done<br><br>I know i am done when the user has a help button to do so.<br> ![Help](assets/readme/helpbutton.wide.p2.png)|
+ |4|Test Pass|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast am and compare it to how fast i was before<br><br>I know i am done when the user can use the score button to do this.<br> ![Survey page](assets/readme/Survey-page-screen.p1.png)| 
 
 ### Accessiblity Testing *need to do*
 
