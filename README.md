@@ -32,8 +32,6 @@ Bellow are my early designs for the reaction speed web project.
 ##### Phone
 ![Start of test page Wireframe phone](assets/readme/wireframe-phone-start.p2.png)
 
-### 
-
 ***
 
 ## Features *new*
@@ -72,7 +70,12 @@ Bellow are my early designs for the reaction speed web project.
     - Thank-you: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fthank-you.html
  - CSS 
     - No errors were found using the official jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fthank-you.html&usermedium=all&vextwarning=&warning=1
-
+- Java
+    - No errors were found using the official Jshint validator<br>
+    - 
+    - 
+    - 
+    - 
 ### User Stories Testing *need to do*
 
  | Story no. | Result | Story/evidence |
@@ -113,11 +116,16 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 |![Chrome](assets/readme/Google-chrome-phone.p1.png)|![Firefox](assets/readme/Firefox-mobile.p1.png)|
 
 
-### Fixed Bugs *need to do*
+### Fixed Bugs *Done
 
-#### Widescreen Whitespace Bug
+#### Halved Area
+  - In index.html the test area ended up in half often.
+  - Choosing to sidestep the issue by hiding p1 along with the test area.
 
-
+#### Oversized Test Area
+  - During development i used min height and min width to fix other issues and the code ended up redundant.
+  - Then it started causing sizing issues for the test area in index.html.
+  - Discovering why, the code was then removed.
 
 ## Deployment *Done*
 
@@ -140,7 +148,7 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 ### Local Deployment
 1. Sign up to [Gitpod](https://github.io/)
 2. Download the Gitpod browser extension.
-3. On GitHub.com, navigate to the [Savvietarmac/Reaction-Speed.p2](https://github.com/Savvietarmac/p1-star-views) repository. 
+3. On GitHub.com, navigate to the [Savvietarmac/Reaction-Speed.p2](https://github.com/Savvietarmac/Reaction-Speed.p2) repository. 
 4. Above the list of files click the button that says 'Gitpod'.
 
 ### Remote Deployment
@@ -149,22 +157,18 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 3. Navigate to the settings tab.
 4. Click on the tab called 'pages' on the left hand side.
 5. From the source drop down list under the heading Build and deployment, select main.
-6. The page will hten provide the link to the website.
+6. The page will then provide the link to the website.
 
 The live link can be found here - [Reaction Speed](https://savvietarmac.github.io/Reaction-Speed.p2/)
 
 
 ***
 
-## Credits
+## Credits *Done*
+  - used [w3schools](https://www.w3schools.com/) for tips on how to code my project
 
-### Content
-
-### Media
-
-#### Images *new*
+#### Images
  - Hero image made by Snapwire [Pexels](https://www.pexels.com/photo/adventure-cliff-lookout-people-6763/)
 
-
-#### Icons *new but same*
+#### Icons
  - Favicons taken from [Favicon](https://favicon.io/favicon-converter/)
