@@ -47,7 +47,6 @@ const all = document.addEventListener("DOMContentLoaded", function () {
                 showScreen(); // new but maybe good enough?
             } else {
                 score = reactionTime; // score for values to be put into
-                console.log(score);
                 showScreen(); //instead of multiple do just one for now
                 current(); //sidebar score
                 //scorePage(); //to add to scorePage
@@ -105,7 +104,8 @@ const all = document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem('final', JSON.stringify(storeHighscore));
         let storedscore = JSON.parse(localStorage.getItem('score'));
         let storedscore = JSON.parse(localStorage.getItem('score'));
-        let  storedScore = JSON.parse(localStorage.getItem('score'));*/
+        let  storedScore = JSON.parse(localStorage.getItem('score'));
+    }    */
 });
 
 
