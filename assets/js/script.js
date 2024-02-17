@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+const all = document.addEventListener("DOMContentLoaded", function () {
     hideScreens();
     let initial = document.getElementById("button-default"); // Start of test button
     let score;
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 showScreen(); // new but maybe good enough?
             } else {
                 score = reactionTime; // score for values to be put into
-                console.log(score)
+                console.log(score);
                 showScreen(); //instead of multiple do just one for now
                 current(); //sidebar score
                 //scorePage(); //to add to scorePage
@@ -90,65 +90,30 @@ document.addEventListener("DOMContentLoaded", function () {
         sidebarscore.innerHTML = score + " Msec";
     }
     /*
-    // add score to score.html
+    //add score to score.html
     function scorePage() {
-        let ul = document.getElementById("scorelist");
-        let li = document.createElement("li");
-        let liText = document.createTextNode(score + " Msec");
-        li.appendChild(liText);
-        ul.appendChild(li)
+        var ul = document.getElementById("scorelist");
+        var li = document.createElement("li");
+        li.appendChild(document.createTextNode(`${score} Msec`));
+        li.setAttribute("class", "oldScore"); // added line
+        ul.appendChild(li);
+        alert(li.id);
+        storeList();
+    }
 
-    }*/
+    function storeList() {
+        localStorage.setItem('final', JSON.stringify(storeHighscore));
+        let storedscore = JSON.parse(localStorage.getItem('score'));
+        let storedscore = JSON.parse(localStorage.getItem('score'));
+        let  storedScore = JSON.parse(localStorage.getItem('score'));*/
 });
+
+
 
 /*
         document.querySelector('.gamescreen').style.display = 'none';
         document.querySelector('.gamescreen').style.visibility = 'none';
 */
 /*/local storage 
-localStorage.setItem('final', JSON.stringify(storeHighscore));
-let storedscore = JSON.parse(localStorage.getItem('score'));
-let storedscore = JSON.parse(localStorage.getItem('score'));
-  let  storedScore = JSON.parse(localStorage.getItem('score'));
 
-  //for loop 
-  let score = [0];
-  let finalScore = 0;
-  for (let i = 0; i <= score.length; i++) {
-    finalScore += score[i]
-  }
-  console.log(finalScore)
-*/
-/*//scorepage removed
-        let scoreList = document.createElement("li");
-        let textList = document.createTextNode(score + " msec");
-        scoreList.appendChild(textList);
-        document.getElementById("scorelist").appendChild(scoreList);
-*/
-
-/*
-// Ends the Test
-function endTest() {
-break; // how do i break / end the game?
-}
-
-
-// made to input score in sidebar and into score.html
-function LeaderBoard() {
-let sidebarS = document.getElementById("sidebarscore");
-sidebarS.innerHTML = `${finalScore} Sec`;
-}
-
-//add new text to score.html        
-function storeHighscore() {
-let table = document.table;
-table.appendChild(newAttempt, newScore);
-let newAttempt = document.createElement = ("td");
-newAttempt.innerHTML = (i++);
-let newScore = document.createElement("td");
-newScore.innnerHTML = finalScore;
-}
-
-document.write("<h1>Hello World!</h1>"); // could us perhaps with attribute in html
- 
-}*/
+    // }*/

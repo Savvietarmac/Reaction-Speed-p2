@@ -6,18 +6,18 @@ The Reaction Speed website is made for anyone who is intrested in learning about
 
 ![Ui Responsivenes](assets/readme/ui.responsive.p2.png)
 
-## User Stories *new unless storage is fixed*
+## User Stories
 
  |Story no. |Story|
  | -------- | -------- |
  |1|As a new user, <br>I want to learn what my reaction speed is<br>So that i can understand how fast my reactions are<br><br>I know i am done when the user can use the click here button to do this.|
  |2|As a new user,<br>I want to be able to see what my reaction speed is<br>So that i can see how fast i am<br><br>I know i am done when the user can use the website to see the score.|
  |3|As a new user,<br>I want to learn how to use the websites test<br>So that i can learn how the test is done<br><br>I know i am done when the user has a help button to do so.|
- |4|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast am and compare it to how fast i was before<br><br>I know i am done when the user can use the score button to do this.|
+ |4|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast i am and compare it to how fast i was before<br><br>I know i am done when the user can use the score button to do this.|
 
  ***
 
-## Wireframes *Done*
+## Wireframes
 Bellow are my early designs for the reaction speed web project.
 
 ### Index Page
@@ -79,7 +79,7 @@ Bellow are my early designs for the reaction speed web project.
   - Hero image in the background<br>
  ![Index page](assets/readme/index.phone.p2.png)
 
- ##### Score *need more*
+ ##### Score
  - Has a ol where earlier scores are stored
  - 
  - 
@@ -109,7 +109,7 @@ Bellow are my early designs for the reaction speed web project.
  |1|Test Pass|As a new user, <br>I want to learn what my reaction speed is<br>So that i can understand how fast my reactions are<br><br>I know i am done when the user can use the click here button to do this.<br>The button begins the test when clicked <br>![Test Area](assets/readme/testarea.phone.p2.png)|
  |2|Test Pass|As a new user,<br>I want to be able to see what my reaction speed is<br>So that i can see how fast i am<br><br>I know i am done when the user can use the website to see the score.<br>The sidebar allows the user to see the score. <br>![Sidebar](assets/readme/sidebar.phone.p2.png)|
  |3|Test Pass|As a new user,<br>I want to learn how to use the websites test<br>So that i can learn how the test is done<br><br>I know i am done when the user has a help button to do so.<br> ![Help](assets/readme/helpbutton.wide.p2.png)|
- |4|Test Pass|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast am and compare it to how fast i was before<br><br>I know i am done when the user can use the score button to do this.<br> ![Survey page](assets/readme/Survey-page-screen.p1.png)| 
+ |4|Test Pass|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast i am and compare it to how fast i was before<br><br>I know i am done when the user can use the score button to do this.<br> ![Survey page](assets/readme/Survey-page-screen.p1.png)| 
 
 ### Accessiblity Testing *need to do*
 
@@ -119,13 +119,13 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 ##### Guide
 ![Score](assets/readme/Guide-page.p1.png)<br>
 
-### Manual Testing *Done*
+### Manual Testing
  - I have tested this website on diffrent web browsers.
  - I have tested that the website is responsive to diffrent screen sizes. It works in multiple diffrent screen sizes.
  - I have tested the links in the nav and the footer. they all work
  - I have tested the text and its fonts are readable and scroll where necessary.
 
-#### Desktop *Done*
+#### Desktop
 |chrome 121.0.6167.139|Firefox 122.0|
 | --- | --- |
 |![Chrome](assets/readme/chrome.wide.p2.png)|![Firefox](assets/readme/firefox.wide.p2.png)|
@@ -140,8 +140,12 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 | --- | --- |
 |![Chrome](assets/readme/chrome.phone.p2.png)|![Firefox](assets/readme/firefox.phone.p2.png)|
 
+### Unresolved Bugs
+#### The Half And Half 2.0
+  - Sometimes when pressing the button post having pressed it the first time the test area shrinks to half, see "oversized Test Area" bugfix
+  - other times it remains large, susspect it has to do with clicking the yellow screen
 
-### Fixed Bugs *Done
+### Fixed Bugs
 
 #### Halved Area
   - In index.html the test area ended up in half often.
@@ -152,7 +156,7 @@ Using lighthouse to rate the accesability of the webpage. Results are:
   - Then it started causing sizing issues for the test area in index.html.
   - Discovering why, the code was then removed.
 
-## Deployment *Done*
+## Deployment
 
 ### Cloning & Forking
 #### Fork
@@ -189,7 +193,7 @@ The live link can be found here - [Reaction Speed](https://savvietarmac.github.i
 
 ***
 
-## Credits *Done*
+## Credits
   - used [w3schools](https://www.w3schools.com/) for tips on how to code my project
 
 #### Images
