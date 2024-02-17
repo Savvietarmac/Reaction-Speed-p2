@@ -107,5 +107,3 @@ const all = document.addEventListener("DOMContentLoaded", function () {
         let  storedScore = JSON.parse(localStorage.getItem('score'));
     }    */
 });
-
-
