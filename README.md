@@ -119,13 +119,13 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 ##### Guide
 ![Score](assets/readme/Guide-page.p1.png)<br>
 
-### Manual Testing *need to do*
+### Manual Testing *Done*
  - I have tested this website on diffrent web browsers.
  - I have tested that the website is responsive to diffrent screen sizes. It works in multiple diffrent screen sizes.
  - I have tested the links in the nav and the footer. they all work
  - I have tested the text and its fonts are readable and scroll where necessary.
 
-#### Desktop *need to do*
+#### Desktop *Done*
 |chrome 121.0.6167.139|Firefox 122.0|
 | --- | --- |
 |![Chrome](assets/readme/chrome.wide.p2.png)|![Firefox](assets/readme/firefox.wide.p2.png)|
