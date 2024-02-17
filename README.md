@@ -20,42 +20,65 @@ The Reaction Speed website is made for anyone who is intrested in learning about
 ## Wireframes *Done*
 Bellow are my early designs for the reaction speed web project.
 
-### Index Page *new*
+### Index Page
 ##### Widescreen
 ![Index page Wireframe wide](assets/readme/wireframe-screen-index.p2.png)
 ##### Phone
 ![Index page Wireframe phone](assets/readme/wireframe-phone-index.p2.png)
 
-### Start Of Test *new*
+### Start Of Test
 ##### Widescreen
 ![Start of test page Wireframe wide](assets/readme/wireframe-screen-start.p2.png)
 ##### Phone
 ![Start of test page Wireframe phone](assets/readme/wireframe-phone-start.p2.png)
 
+##### changes
+- Ended up creating a score page.
+- Also added a sidebar for keeping instant returns on ones test score
+
 ***
 
-## Features *new*
+## Features *almost done*
 
- ##### Header and Nav
+ ##### Header
  - Header has the name of the website.
- ![Header and nav](assets/readme/Header-nav.p1.png)
+ ![Header](assets/readme/header.phone.p2.png)
  ##### Footer
- - Has links to further resources
- ![Footer](assets/readme/footer.p1.png)
+ - Has links to further resources.
+ ![Footer](assets/readme/footer.phone.p2.png)
+ ##### Nav
+ - Right button uses a javascript alert to instruct on the test in index and explains the content in score.html.
+ - Left button goes between index.html and score.html.
+ ![Nav](assets/readme/nav.phone.p2.png)
+##### Test Area
+ - Has a button used to start the test
+ - It then changes to other colors whereby the user can click on two of them
+ - yellow returns the user to the begining
+ - green records the users reaction speed
+ ![Test Area](assets/readme/testarea.phone.p2.png)
+##### Colors
+  - Colors for the website are:
+  - rgba(255, 0, 0, 0.8)
+  - rgb(0, 0, 0)
+  - rgb(0, 128, 0)
+  - rgb(255, 255, 0)
+  - rgba(245, 245, 220, 0.6)
 
-- __Colors__  
-  - Colors for the website ![Colors]()
-
-- __fonts__ *new*
+##### fonts
   - fonts from google fonts [font](https://fonts.google.com/specimen/Nanum+Gothic?query=sand)
 
-- __Index__
+##### Index
   - Header at the top
   - Footer at the bottom
   - Nav to the sides by the top
   - Start button in the center
   - Hero image in the background
- ![Index page](assets/readme/Index-page-screen.p1.png)
+ ![Index page](assets/readme/index.phone.p2.png)
+
+ ##### Score *need more*
+ - Has a ol where earlier scores are stored
+ - 
+ - 
 
 ***
 

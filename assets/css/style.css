@@ -58,7 +58,7 @@ li {
     display: none;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .greenscreen {
@@ -66,7 +66,7 @@ li {
     display: none;
     height: 100%;
     width: 100%;
-    background-color: green;
+    background-color: rgb(0, 128, 0);
 }
 
 .yellowscreen {
@@ -74,7 +74,7 @@ li {
     display: none;
     height: 100%;
     width: 100%;
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
 }
 
 footer {
@@ -88,7 +88,7 @@ footer {
 footer i {
     width: 40vw;
     margin-top: 15px;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 header {
@@ -402,12 +402,12 @@ i {
     .nav-button-1 {
         height: 40px;
         width: 80px;
-        margin-right: 600px;
+        margin-right: 320px;
     }
 
     .nav-button-2 {
         height: 40px;
         width: 80px;
-        margin-left: 600px;
+        margin-left: 320px;
     }
 }
