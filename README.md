@@ -38,7 +38,7 @@ Bellow are my early designs for the reaction speed web project.
 
 ***
 
-## Features *almost done*
+## Features
 
  ##### Header
  - Header has the name of the website. <br>
@@ -85,12 +85,13 @@ Bellow are my early designs for the reaction speed web project.
  - Has a link back to index
  - Has a help clickable top right
  - In the future proper storage can be created as was intended
+ ![Score](assets/readme/score.phone.p2.png)
 
 ***
 
-## Testing *Need to do*
+## Testing
 
-### validator Testing *Need to do all*
+### validator Testing
 
  - HTML
     - Index: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2FReaction-Speed.p2%2F
@@ -110,12 +111,12 @@ Bellow are my early designs for the reaction speed web project.
  |3|Test Pass|As a new user,<br>I want to learn how to use the websites test<br>So that i can learn how the test is done<br><br>I know i am done when the user has a help button to do so.<br> The help button supplies instructions.<br> ![Help](assets/readme/helpbutton.wide.p2.png)|
  |4|Test Fail|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast i am and compare it to how fast i was before<br><br>I know i am done when the user can use the score button to do this.<br>In the future this feature can be fixed <br> ![Score](assets/readme/score.phone.p2.png)| 
 
-### Accessiblity Testing *need to do*
+### Accessiblity Testing
 
 Using lighthouse to rate the accesability of the webpage. Results are:
 ##### Index
 ![Index](assets/readme/index.lighthouse.p2.png)<br>
-##### Guide *Maybe*
+##### Guide
 ![Score](assets/readme/score.lighthouse.early.p2.png)<br>
 
 ### Manual Testing
