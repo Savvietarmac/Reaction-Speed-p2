@@ -49,7 +49,6 @@ const all = document.addEventListener("DOMContentLoaded", function () {
                 score = reactionTime; // score for values to be put into
                 showScreen(); //instead of multiple do just one for now
                 current(); //sidebar score
-                //scorePage(); //to add to scorePage
             }
 
             showBlackScreen(); // Proceed to show black screen
@@ -88,22 +87,4 @@ const all = document.addEventListener("DOMContentLoaded", function () {
         let sidebarscore = document.getElementById("sidebarscore");
         sidebarscore.innerHTML = score + " Msec";
     }
-    /*
-    //add score to score.html
-    function scorePage() {
-        var ul = document.getElementById("scorelist");
-        var li = document.createElement("li");
-        li.appendChild(document.createTextNode(`${score} Msec`));
-        li.setAttribute("class", "oldScore"); // added line
-        ul.appendChild(li);
-        alert(li.id);
-        storeList();
-    }
-
-    function storeList() {
-        localStorage.setItem('final', JSON.stringify(storeHighscore));
-        let storedscore = JSON.parse(localStorage.getItem('score'));
-        let storedscore = JSON.parse(localStorage.getItem('score'));
-        let  storedScore = JSON.parse(localStorage.getItem('score'));
-    }    */
 });
