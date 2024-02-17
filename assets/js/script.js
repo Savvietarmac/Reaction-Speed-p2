@@ -43,12 +43,11 @@ document.addEventListener("DOMContentLoaded", function () {
             if (selectedScreen.classList.contains('yellowscreen')) {
                 showScreen(); // new but maybe good enough?
             } else {
-                console.log('Green screen clicked', 'Reaction time: ' + reactionTime + ' ms'); // Log for green screen
                 score = reactionTime; // score for values to be put into
                 console.log(score)
                 showScreen(); //instead of multiple do just one for now
-                current();
-                scorePage();
+                current(); //sidebar score
+                scorePage(); //to add to scorePage
             }
 
             showBlackScreen(); // Proceed to show black screen
@@ -82,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let sidebarscore = document.getElementById("sidebarscore");
         sidebarscore.innerHTML = score + " Msec";
     }
-
+    
     // add score to score.html
     function scorePage() {
         let list1 = document.getElementById("scorelist");
@@ -91,7 +90,6 @@ document.addEventListener("DOMContentLoaded", function () {
         scoreList.appendChild(textList);
 
     }
-
 });
 /*/local storage 
 localStorage.setItem('final', JSON.stringify(storeHighscore));

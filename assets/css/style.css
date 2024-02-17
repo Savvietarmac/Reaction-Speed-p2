@@ -51,8 +51,6 @@ li {
     align-items: center;
     font-size: 1.2rem;
     z-index: 10;
-    min-width: 80vw;
-    min-height: 180px;
 }
 
 .blackscreen {
