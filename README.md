@@ -43,19 +43,23 @@ Bellow are my early designs for the reaction speed web project.
  ##### Header
  - Header has the name of the website.
  ![Header](assets/readme/header.phone.p2.png)
+
  ##### Footer
  - Has links to further resources.
  ![Footer](assets/readme/footer.phone.p2.png)
+
  ##### Nav
  - Right button uses a javascript alert to instruct on the test in index and explains the content in score.html.
  - Left button goes between index.html and score.html.
  ![Nav](assets/readme/nav.phone.p2.png)
+
 ##### Test Area
  - Has a button used to start the test
  - It then changes to other colors whereby the user can click on two of them
  - yellow returns the user to the begining
  - green records the users reaction speed
  ![Test Area](assets/readme/testarea.phone.p2.png)
+
 ##### Colors
   - Colors for the website are:
   - rgba(255, 0, 0, 0.8)
@@ -89,10 +93,9 @@ Bellow are my early designs for the reaction speed web project.
  - HTML
     - Index: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Findex.html
     - Guide: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fguide.html
-    - Survey: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fsurvey.html
-    - Thank-you: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fthank-you.html
+
  - CSS 
-    - No errors were found using the official jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fthank-you.html&usermedium=all&vextwarning=&warning=1
+    - No errors were found using the official jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2FReaction-Speed.p2%2F&usermedium=all&vextwarning=&warning=1
 - Java
     - No errors were found using the official Jshint validator<br>
     - 

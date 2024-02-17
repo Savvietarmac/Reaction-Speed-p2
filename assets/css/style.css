@@ -125,16 +125,62 @@ nav {
     height: 40px;
     width: 80px;
     margin-right: 40px;
-    background-color: rgba(165, 42, 42, 0.8);
     font-size: large;
+    appearance: auto;
+    text-rendering: auto;
+    color: rgb(0, 0, 0);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: rgba(165, 42, 42, 0.8);
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    text-align: center;
+    border-style: outset;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+    text-decoration: none;
+    font-size: 150%;
 }
 
 .nav-button-2 {
     height: 40px;
     width: 80px;
-    margin-left: 40px;
-    background-color: rgba(165, 42, 42, 0.8);
+    margin-right: 40px;
     font-size: large;
+    appearance: auto;
+    text-rendering: auto;
+    color: rgb(0, 0, 0);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: rgba(165, 42, 42, 0.8);
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    text-align: center;
+    border-style: outset;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+    text-decoration: none;
+    font-size: 150%;
 }
 
 /*Hero image*/
