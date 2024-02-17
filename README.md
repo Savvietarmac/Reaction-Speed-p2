@@ -75,7 +75,9 @@ Bellow are my early designs for the reaction speed web project.
   - Header at the top
   - Footer at the bottom
   - Nav to the sides by the top
+  - Test area located in the center
   - Start button in the center
+  - Has a sidebar for the reaction time score underneath the test area
   - Hero image in the background<br>
  ![Index page](assets/readme/index.phone.p2.png)
 
@@ -113,7 +115,7 @@ Bellow are my early designs for the reaction speed web project.
 Using lighthouse to rate the accesability of the webpage. Results are:
 ##### Index
 ![Index](assets/readme/index.lighthouse.p2.png)<br>
-##### Guide
+##### Guide *Maybe*
 ![Score](assets/readme/score.lighthouse.early.p2.png)<br>
 
 ### Manual Testing
