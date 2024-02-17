@@ -4,7 +4,7 @@ The Reaction Speed website is made for anyone who is intrested in learning about
 
 [Reaction Speed](https://github.com/Savvietarmac/Reaction-Speed.p2)
 
-![Ui Responsivenes](assets/readme/Ui-dev-responsivnes.p1.png)
+![Ui Responsivenes](assets/readme/ui.responsive.p2.png)
 
 ## User Stories *new*
 
@@ -12,8 +12,8 @@ The Reaction Speed website is made for anyone who is intrested in learning about
  | -------- | -------- |
  |1|As a new user, <br>I want to learn what my reaction speed is<br>So that i can understand how fast my reactions are<br><br>I know i am done when the user can use the click here button to do this.|
  |2|As a new user,<br>I want to be able to see what my reaction speed is<br>So that i can see how fast i am<br><br>I know i am done when the user can use the website to see the score.|
- |3|As a new user,<br>I want to learn how to use the website<br>So that i can learn how the test is done<br><br>I know i am done when the user has a help button to do so.|
- |4|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast am and how fast i was compared to before<br><br>I know i am done when the user can use the score button to do this.|
+ |3|As a new user,<br>I want to learn how to use the websites test<br>So that i can learn how the test is done<br><br>I know i am done when the user has a help button to do so.|
+ |4|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast am and compare it to how fast i was before<br><br>I know i am done when the user can use the score button to do this.|
 
  ***
 
@@ -34,7 +34,7 @@ Bellow are my early designs for the reaction speed web project.
 
 ##### changes
 - Ended up creating a score page.
-- Also added a sidebar for keeping instant returns on ones test score
+- Added a sidebar for keeping instant returns on the users test score.
 
 ***
 
@@ -122,24 +122,23 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 ### Manual Testing *need to do*
  - I have tested this website on diffrent web browsers.
  - I have tested that the website is responsive to diffrent screen sizes. It works in multiple diffrent screen sizes.
- - I have tested the links in the header, footer and the survey page. they all work
+ - I have tested the links in the nav and the footer. they all work
  - I have tested the text and its fonts are readable and scroll where necessary.
- - I have checked that the form sends the data to the correct place when submitted.
 
 #### Desktop *need to do*
 |chrome 121.0.6167.139|Firefox 122.0|
 | --- | --- |
-|![Chrome](assets/readme/Google-chrome-widescreen.p1.png)|![Firefox](assets/readme/Fifrefox-widescreen.p1.png)|
+|![Chrome](assets/readme/chrome.wide.p2.png)|![Firefox](assets/readme/firefox.wide.p2.png)|
 
 #### Tablet
 |chrome 121.0.6167.139|Firefox 122.0|
 | --- | --- |
-|![Chrome](assets/readme/google-chrome-tablet.p1.png)|![Firefox](assets/readme/Firefox-tablet.p1.png)|
+|![Chrome](assets/readme/chrome.tablet.p2.png)|![Firefox](assets/readme/firefox.tablet.p2.png)|
 
 #### Phone
 |chrome 121.0.6167.139|Firefox 122.0|
 | --- | --- |
-|![Chrome](assets/readme/Google-chrome-phone.p1.png)|![Firefox](assets/readme/Firefox-mobile.p1.png)|
+|![Chrome](assets/readme/chrome.phone.p2.png)|![Firefox](assets/readme/firefox.phone.p2.png)|
 
 
 ### Fixed Bugs *Done
