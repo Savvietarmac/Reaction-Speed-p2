@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 console.log(score)
                 showScreen(); //instead of multiple do just one for now
                 current(); //sidebar score
-                scorePage(); //to add to scorePage
+                //scorePage(); //to add to scorePage
             }
 
             showBlackScreen(); // Proceed to show black screen
@@ -66,6 +66,8 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector('.blackscreen').style.visibility = 'hidden';
         document.querySelector('.greenscreen').style.visibility = 'hidden';
         document.querySelector('.yellowscreen').style.visibility = 'hidden';
+        document.querySelector('.p1').style.display = 'none';
+        document.querySelector('.p1').style.visibility = 'hidden';
     }
 
     // Function to handle the display and timing of the black screen
@@ -87,16 +89,22 @@ document.addEventListener("DOMContentLoaded", function () {
         let sidebarscore = document.getElementById("sidebarscore");
         sidebarscore.innerHTML = score + " Msec";
     }
-    
+    /*
     // add score to score.html
     function scorePage() {
-        let list1 = document.getElementById("scorelist");
-        let scoreList = document.createElement("li");
-        let textList = document.createTextNode(score + " Msec");
-        scoreList.appendChild(textList);
+        let ul = document.getElementById("scorelist");
+        let li = document.createElement("li");
+        let liText = document.createTextNode(score + " Msec");
+        li.appendChild(liText);
+        ul.appendChild(li)
 
-    }
+    }*/
 });
+
+/*
+        document.querySelector('.gamescreen').style.display = 'none';
+        document.querySelector('.gamescreen').style.visibility = 'none';
+*/
 /*/local storage 
 localStorage.setItem('final', JSON.stringify(storeHighscore));
 let storedscore = JSON.parse(localStorage.getItem('score'));
