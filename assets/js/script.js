@@ -109,11 +109,3 @@ const all = document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
-/*
-        document.querySelector('.gamescreen').style.display = 'none';
-        document.querySelector('.gamescreen').style.visibility = 'none';
-*/
-/*/local storage 
-
-    // }*/
