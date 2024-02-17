@@ -41,23 +41,23 @@ Bellow are my early designs for the reaction speed web project.
 ## Features *almost done*
 
  ##### Header
- - Header has the name of the website.
+ - Header has the name of the website. <br>
  ![Header](assets/readme/header.phone.p2.png)
 
  ##### Footer
- - Has links to further resources.
+ - Has links to further resources. <br>
  ![Footer](assets/readme/footer.phone.p2.png)
 
  ##### Nav
  - Right button uses a javascript alert to instruct on the test in index and explains the content in score.html.
- - Left button goes between index.html and score.html.
+ - Left button goes between index.html and score.html. <br>
  ![Nav](assets/readme/nav.phone.p2.png)
 
 ##### Test Area
  - Has a button used to start the test
  - It then changes to other colors whereby the user can click on two of them
  - yellow returns the user to the begining
- - green records the users reaction speed
+ - green records the users reaction speed <br>
  ![Test Area](assets/readme/testarea.phone.p2.png)
 
 ##### Colors
@@ -76,7 +76,7 @@ Bellow are my early designs for the reaction speed web project.
   - Footer at the bottom
   - Nav to the sides by the top
   - Start button in the center
-  - Hero image in the background
+  - Hero image in the background<br>
  ![Index page](assets/readme/index.phone.p2.png)
 
  ##### Score *need more*
@@ -106,8 +106,8 @@ Bellow are my early designs for the reaction speed web project.
 
  | Story no. | Result | Story/evidence |
  | -------- | -------- | ---------- |
- |1|Test Pass|As a new user, <br>I want to learn what my reaction speed is<br>So that i can understand how fast my reactions are<br><br>I know i am done when the user can use the click here button to do this.<br>The button begins the test when clicked ![Test Area](assets/readme/testarea.phone.p2.png)|
- |2|Test Pass|As a new user,<br>I want to be able to see what my reaction speed is<br>So that i can see how fast i am<br><br>I know i am done when the user can use the website to see the score.<br>The sidebar allows the user to see the score. ![Sidebar](assets/readme/sidebar.phone.p2.png)|
+ |1|Test Pass|As a new user, <br>I want to learn what my reaction speed is<br>So that i can understand how fast my reactions are<br><br>I know i am done when the user can use the click here button to do this.<br>The button begins the test when clicked <br>![Test Area](assets/readme/testarea.phone.p2.png)|
+ |2|Test Pass|As a new user,<br>I want to be able to see what my reaction speed is<br>So that i can see how fast i am<br><br>I know i am done when the user can use the website to see the score.<br>The sidebar allows the user to see the score. <br>![Sidebar](assets/readme/sidebar.phone.p2.png)|
  |3|Test Pass|As a new user,<br>I want to learn how to use the websites test<br>So that i can learn how the test is done<br><br>I know i am done when the user has a help button to do so.<br> ![Help](assets/readme/helpbutton.wide.p2.png)|
  |4|Test Pass|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast am and compare it to how fast i was before<br><br>I know i am done when the user can use the score button to do this.<br> ![Survey page](assets/readme/Survey-page-screen.p1.png)| 
 
