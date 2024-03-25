@@ -61,10 +61,10 @@ const all = document.addEventListener("DOMContentLoaded", function () {
         document.querySelector('.blackscreen').style.display = 'none';
         document.querySelector('.greenscreen').style.display = 'none';
         document.querySelector('.yellowscreen').style.display = 'none';
+        document.querySelector('.p1').style.display = 'none';
         document.querySelector('.blackscreen').style.visibility = 'hidden';
         document.querySelector('.greenscreen').style.visibility = 'hidden';
         document.querySelector('.yellowscreen').style.visibility = 'hidden';
-        document.querySelector('.p1').style.display = 'none';
         document.querySelector('.p1').style.visibility = 'hidden';
     }
 
@@ -82,9 +82,14 @@ const all = document.addEventListener("DOMContentLoaded", function () {
         }, randomTime);
     }
 
-    // New but actually works hallelujah
+    // Sidebar Msec under button
     function current() {
         let sidebarscore = document.getElementById("sidebarscore");
         sidebarscore.innerHTML = score + " Msec";
+    }
+
+    // storing scores for locas storage in store.html
+    function store() {
+
     }
 });
