@@ -49,6 +49,7 @@ const all = document.addEventListener("DOMContentLoaded", function () {
                 score = reactionTime; // score for values to be put into
                 showScreen(); //instead of multiple do just one for now
                 current(); //sidebar score
+                store(); //store score for local storage 
             }
 
             showBlackScreen(); // Proceed to show black screen
@@ -90,6 +91,9 @@ const all = document.addEventListener("DOMContentLoaded", function () {
 
     // storing scores for locas storage in store.html
     function store() {
-
+        let stringScore = JSON.stringify(score);
+        localStorage.setItem("storedScore", stringScore);
+        let objectScore = JSON.parse(localStorage.getItem("storedScore"));
+        print(objectScore);
     }
 });
