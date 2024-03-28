@@ -94,6 +94,12 @@ const all = document.addEventListener("DOMContentLoaded", function () {
         let stringScore = JSON.stringify(score);
         localStorage.setItem("storedScore", stringScore);
         let objectScore = JSON.parse(localStorage.getItem("storedScore"));
-        print(objectScore);
+        console.log(objectScore);
+        displayScore();
+    }
+
+    // Display score for score.html and using local storage
+    function displayScore() {
+        // scope for objectScore
     }
 });
