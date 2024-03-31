@@ -88,18 +88,4 @@ const all = document.addEventListener("DOMContentLoaded", function () {
         let sidebarscore = document.getElementById("sidebarscore");
         sidebarscore.innerHTML = score + " Msec";
     }
-
-    // storing scores for locas storage in store.html
-    function store() {
-        let stringScore = JSON.stringify(score);
-        localStorage.setItem("storedScore", stringScore);
-        let objectScore = JSON.parse(localStorage.getItem("storedScore"));
-        console.log(objectScore);
-        displayScore();
-    }
-
-    // Display score for score.html and using local storage
-    function displayScore() {
-        // scope for objectScore
-    }
 });

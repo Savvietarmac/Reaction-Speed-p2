@@ -217,18 +217,6 @@ i {
     font-size: 2rem;
 }
 
-#red {
-    height: 180px;
-    width: 80vw;
-    display: flex;
-    background-color: rgba(255, 0, 0, 0.6);
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.2rem;
-    overflow: auto;
-    z-index: 10;
-}
-
 /* for phones that are turned sideways */
 @media screen and (min-width: 653px) {
 
@@ -316,17 +304,6 @@ i {
         height: 40px;
         width: 80px;
         margin-left: 200px;
-    }
-
-    #red {
-        margin-top: 10px;
-        height: 150px;
-        width: 40vw;
-        display: flex;
-        background-color: rgba(255, 0, 0, 0.6);
-        flex-direction: column;
-        align-items: center;
-        font-size: 1.2rem;
     }
 }
 
@@ -417,16 +394,6 @@ i {
         width: 80px;
         margin-left: 200px;
     }
-
-    #red {
-        height: 160px;
-        width: 40vw;
-        display: flex;
-        background-color: rgba(255, 0, 0, 0.6);
-        flex-direction: column;
-        align-items: center;
-        font-size: 1.2rem;
-    }
 }
 
 /* laptop and larger */
@@ -488,15 +455,5 @@ i {
         height: 40px;
         width: 80px;
         margin-left: 320px;
-    }
-
-    #red {
-        height: 160px;
-        width: 25vw;
-        display: flex;
-        background-color: rgba(255, 0, 0, 0.6);
-        flex-direction: column;
-        align-items: center;
-        font-size: 1.2rem;
     }
 }
