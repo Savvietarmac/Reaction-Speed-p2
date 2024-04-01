@@ -31,6 +31,43 @@ li {
     margin-right: 20px;
 }
 
+/*Help button divs*/
+.div1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 12;
+}
+
+.div2 {
+    position: absolute;
+    height: 210px;
+    width: 80vw;
+    background-color: rgba(245, 245, 220, 1);
+    z-index: 13;
+    font-size: 1.2rem;
+}
+
+#xicon {
+    position: relative;
+    width: 100%;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.help-p {
+    margin: 0;
+}
+
+.green {
+    color: rgb(0, 128, 0);
+}
+
+.yellow {
+    color: rgba(182, 182, 63, 0.589);
+}
+
 /*button*/
 #button {
     margin-bottom: 20px;
@@ -234,6 +271,22 @@ i {
         width: 60px;
         font-size: 120%;
     }
+    
+    .div2 {
+        position: absolute;
+        height: 170px;
+        width: 40vw;
+        background-color: rgba(245, 245, 220, 1);
+        z-index: 13;
+        font-size: 1.2rem;
+    }
+    
+    #xicon {
+        position: relative;
+        width: 100%;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
 }
 
 /* tablets and larger */
@@ -315,11 +368,41 @@ i {
         width: 60px;
         font-size: 120%;
     }
+
+    .div2 {
+        position: absolute;
+        height: 200px;
+        width: 40vw;
+        background-color: rgba(245, 245, 220, 1);
+        z-index: 13;
+        font-size: 1.2rem;
+    }
+    
+    #xicon {
+        position: relative;
+        width: 100%;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
 }
 
 /* laptop and larger */
 @media screen and (min-width: 1024px) {
-
+    .div2 {
+        position: absolute;
+        height: 240px;
+        width: 40vw;
+        background-color: rgba(245, 245, 220, 1);
+        z-index: 13;
+        font-size: 1.6rem;
+    }
+    
+    #xicon {
+        position: relative;
+        width: 100%;
+        margin-left: 175px;
+        margin-top: 10px;
+    }
 }
 
 /* wide widescreen*/
@@ -353,5 +436,21 @@ i {
         flex-direction: column;
         align-items: center;
         font-size: 1.2rem;
+    }
+
+    .div2 {
+        position: absolute;
+        height: 280px;
+        width: 25vw;
+        background-color: rgba(245, 245, 220, 1);
+        z-index: 13;
+        font-size: 1.8rem;
+    }
+    
+    #xicon {
+        position: relative;
+        width: 100%;
+        margin-left: 150px;
+        margin-top: 10px;
     }
 }

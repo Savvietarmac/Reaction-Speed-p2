@@ -44,11 +44,13 @@ const all = document.addEventListener("DOMContentLoaded", function () {
             let reactionTime = endTime - startTime; // Calculate reaction time in milliseconds
 
             if (selectedScreen.classList.contains('yellowscreen')) {
-                showScreen(); // new but maybe good enough?
+                showScreen(); // returns to normal
+                document.getElementById("p").innerHTML = "Try again!";
             } else {
                 score = reactionTime; // score for values to be put into
                 showScreen(); //instead of multiple do just one for now
                 current(); //sidebar score
+                document.getElementById("p").innerHTML = "You got it!";
             }
 
             showBlackScreen(); // Proceed to show black screen
@@ -61,11 +63,10 @@ const all = document.addEventListener("DOMContentLoaded", function () {
         document.querySelector('.blackscreen').style.display = 'none';
         document.querySelector('.greenscreen').style.display = 'none';
         document.querySelector('.yellowscreen').style.display = 'none';
-        document.querySelector('.p1').style.display = 'none';
         document.querySelector('.blackscreen').style.visibility = 'hidden';
         document.querySelector('.greenscreen').style.visibility = 'hidden';
         document.querySelector('.yellowscreen').style.visibility = 'hidden';
-        document.querySelector('.p1').style.visibility = 'hidden';
+        document.querySelector('.start-screen').style.height = '580%';
     }
 
     // Function to handle the display and timing of the black screen

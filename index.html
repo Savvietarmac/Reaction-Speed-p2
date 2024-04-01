@@ -26,7 +26,11 @@
     
     <button id="button" onclick="alert('When green *Click*, When yellow do not *Click*');">Help</button>
     
-    <div class="background-default">
+    <div class="background-default"></div>
+    <div class="div1"></div>
+    <div class="div2" id="div2">
+        <i class="fa-solid fa-x" id="xicon"></i>
+        <p class="help-p">When the screen is <strong class="green">green</strong> click using left mouse button <br>Avoid clicking when the screen is <strong class="yellow">yellow</strong></p>
     </div>
     <div class="gamescreen">
         <div class="blackscreen"></div>
@@ -34,7 +38,7 @@
         <div class="yellowscreen"></div>
 
         <div class="start-screen">
-            <p class="p1">Judge your reaction speed by clicking the button bellow!</p>
+            <p class="p1" id="p">Judge your reaction speed by clicking the button bellow!</p>
             <i class="fa-solid fa-arrow-down"></i>
             <button id="button-default">Click here!</button>
         </div>
