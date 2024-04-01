@@ -38,6 +38,8 @@ li {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 12;
+    visibility: none;
+    display: none;
 }
 
 .div2 {
@@ -47,6 +49,8 @@ li {
     background-color: rgba(245, 245, 220, 1);
     z-index: 13;
     font-size: 1.2rem;
+    visibility: none;
+    display: none;
 }
 
 #xicon {
@@ -271,7 +275,7 @@ i {
         width: 60px;
         font-size: 120%;
     }
-    
+
     .div2 {
         position: absolute;
         height: 170px;
@@ -280,7 +284,7 @@ i {
         z-index: 13;
         font-size: 1.2rem;
     }
-    
+
     #xicon {
         position: relative;
         width: 100%;
@@ -377,7 +381,7 @@ i {
         z-index: 13;
         font-size: 1.2rem;
     }
-    
+
     #xicon {
         position: relative;
         width: 100%;
@@ -396,7 +400,7 @@ i {
         z-index: 13;
         font-size: 1.6rem;
     }
-    
+
     #xicon {
         position: relative;
         width: 100%;
@@ -446,7 +450,7 @@ i {
         z-index: 13;
         font-size: 1.8rem;
     }
-    
+
     #xicon {
         position: relative;
         width: 100%;

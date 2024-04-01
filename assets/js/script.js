@@ -2,12 +2,29 @@ const all = document.addEventListener("DOMContentLoaded", function () {
     hideScreens();
     let initial = document.getElementById("button-default"); // Start of test button
     let score;
+    let help = document.getElementById("button"); // help button
+    let back = document.getElementById("xicon"); //back icon X
     initial.addEventListener("click", function () {
         document.querySelector(".start-screen").style.display = "none";
         showRandomScreen();
         document.querySelector('.blackscreen').style.visibility = 'visible';
         document.querySelector('.greenscreen').style.visibility = 'visible';
         document.querySelector('.yellowscreen').style.visibility = 'visible';
+    });
+
+    help.addEventListener("click", function () {
+        document.querySelector('.div1').style.display = 'block';
+        document.querySelector('.div1').style.visibility = 'visible';
+        document.querySelector('.div2').style.display = 'block';
+        document.querySelector('.div2').style.visibility = 'visible';
+    });
+
+    //exit help with X icon
+    back.addEventListener("click", function () {
+        document.querySelector('.div1').style.display = 'none';
+        document.querySelector('.div1').style.visibility = 'none';
+        document.querySelector('.div2').style.display = 'none';
+        document.querySelector('.div2').style.visibility = 'none';
     });
 
     // Function to hide all screens
