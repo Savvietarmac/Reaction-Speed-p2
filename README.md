@@ -13,7 +13,6 @@ The Reaction Speed website is made for anyone who is intrested in learning about
  |1|As a new user, <br>I want to learn what my reaction speed is<br>So that i can understand how fast my reactions are<br><br>I know i am done when the user can use the click here button to do this.|
  |2|As a new user,<br>I want to be able to see what my reaction speed is<br>So that i can see how fast i am<br><br>I know i am done when the user can use the website to see the score.|
  |3|As a new user,<br>I want to learn how to use the websites test<br>So that i can learn how the test is done<br><br>I know i am done when the user has a help button to do so.|
- |4|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast i am and compare it to how fast i was before<br><br>I know i am done when the user can use the score button to do this.|
 
  ***
 
@@ -33,7 +32,6 @@ Bellow are my early designs for the reaction speed web project.
 ![Start of test page Wireframe phone](assets/readme/wireframe-phone-start.p2.png)
 
 ##### changes
-- Ended up creating a score page.
 - Added a sidebar for keeping instant returns on the users test score.
 
 ***
@@ -47,11 +45,6 @@ Bellow are my early designs for the reaction speed web project.
  ##### Footer
  - Has links to further resources. <br>
  ![Footer](assets/readme/footer.phone.p2.png)
-
- ##### Nav
- - Right button uses a javascript alert to instruct on the test in index and explains the content in score.html.
- - Left button goes between index.html and score.html. <br>
- ![Nav](assets/readme/nav.phone.p2.png)
 
 ##### Test Area
  - Has a button used to start the test
@@ -74,18 +67,12 @@ Bellow are my early designs for the reaction speed web project.
 ##### Index
   - Header at the top
   - Footer at the bottom
-  - Nav to the sides by the top
+  - help button bellow the header
   - Test area located in the center
   - Start button in the center
   - Has a sidebar for the reaction time score underneath the test area
   - Hero image in the background<br>
  ![Index page](assets/readme/index.phone.p2.png)
-
- ##### Score
- - Has a link back to index
- - Has a help clickable top right
- - In the future proper storage can be created as was intended
- ![Score](assets/readme/score.phone.p2.png)
 
 ***
 
