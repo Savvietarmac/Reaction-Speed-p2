@@ -70,6 +70,8 @@ Bellow are my early designs for the reaction speed web project.
   - Header at the top
   - Footer at the bottom
   - help button bellow the header
+  - shows instructions after pressing help
+  - returns help text back by pressing X icon
   - Test area located in the center
   - Start button in the center
   - Has a sidebar for the reaction time score underneath the test area
@@ -86,7 +88,7 @@ Bellow are my early designs for the reaction speed web project.
     - Index: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2FReaction-Speed-p2%2F
 
  - CSS 
-    - No errors were found using the official jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2FReaction-Speed.p2%2Fscore.html&usermedium=all&vextwarning=&warning=1
+    - No errors were found using the official jigsaw validator<br>https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsavvietarmac.github.io%2FReaction-Speed-p2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 - Java
     - Used the jsvalidate to verify my javaScript<br>[jsvalidate](https://codebeautify.org/jsvalidate)
 
