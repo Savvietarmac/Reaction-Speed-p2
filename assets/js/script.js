@@ -22,9 +22,9 @@ const all = document.addEventListener("DOMContentLoaded", function () {
     //exit help with X icon
     back.addEventListener("click", function () {
         document.querySelector('.div1').style.display = 'none';
-        document.querySelector('.div1').style.visibility = 'none';
+        document.querySelector('.div1').style.visibility = 'hidden';
         document.querySelector('.div2').style.display = 'none';
-        document.querySelector('.div2').style.visibility = 'none';
+        document.querySelector('.div2').style.visibility = 'hidden';
     });
 
     // Function to hide all screens

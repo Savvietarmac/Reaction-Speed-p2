@@ -2,7 +2,7 @@
 The Reaction Speed website is made for anyone who is intrested in learning about how fast their reaction speed is.
 
 
-[Reaction Speed](https://github.com/Savvietarmac/Reaction-Speed.p2)
+[Reaction Speed](https://github.com/Savvietarmac/Reaction-Speed-p2)
 
 ![Ui Responsivenes](assets/readme/ui.responsive.p2.png)
 
@@ -50,7 +50,9 @@ Bellow are my early designs for the reaction speed web project.
  - Has a button used to start the test
  - It then changes to other colors whereby the user can click on two of them
  - yellow returns the user to the begining
- - green records the users reaction speed <br>
+ - yellow changes the html to "Try again!"
+ - green records the users reaction speed
+ - green changes the html to "You got it!" <br>
  ![Test Area](assets/readme/testarea.phone.p2.png)
 
 ##### Colors
@@ -81,8 +83,7 @@ Bellow are my early designs for the reaction speed web project.
 ### validator Testing
 
  - HTML
-    - Index: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2FReaction-Speed.p2%2F
-    - score: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2FReaction-Speed.p2%2Fscore.html
+    - Index: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2FReaction-Speed-p2%2F
 
  - CSS 
     - No errors were found using the official jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2FReaction-Speed.p2%2Fscore.html&usermedium=all&vextwarning=&warning=1
@@ -95,21 +96,18 @@ Bellow are my early designs for the reaction speed web project.
  | -------- | -------- | ---------- |
  |1|Test Pass|As a new user, <br>I want to learn what my reaction speed is<br>So that i can understand how fast my reactions are<br><br>I know i am done when the user can use the click here button to do this.<br>The button begins the test when clicked <br>![Test Area](assets/readme/testarea.phone.p2.png)|
  |2|Test Pass|As a new user,<br>I want to be able to see what my reaction speed is<br>So that i can see how fast i am<br><br>I know i am done when the user can use the website to see the score.<br>The sidebar allows the user to see the score.<br> It diplays under the test area in Milliseconds <br>![Sidebar](assets/readme/sidebar.phone.p2.png)|
- |3|Test Pass|As a new user,<br>I want to learn how to use the websites test<br>So that i can learn how the test is done<br><br>I know i am done when the user has a help button to do so.<br> The help button supplies instructions.<br> ![Help](assets/readme/helpbutton.wide.p2.png)|
- |4|Test Fail|As a user,<br>I want to see what my reaction speed was<br>So that i can see how fast i am and compare it to how fast i was before<br><br>I know i am done when the user can use the score button to do this.<br>In the future this feature can be fixed <br> ![Score](assets/readme/score.phone.p2.png)| 
+ |3|Test Pass|As a new user,<br>I want to learn how to use the websites test<br>So that i can learn how the test is done<br><br>I know i am done when the user has a help button to do so.<br> The help button supplies instructions.<br> ![Help](assets/readme/helpbutton.wide.p2.png)| 
 
 ### Accessiblity Testing
 
 Using lighthouse to rate the accesability of the webpage. Results are:
 ##### Index
 ![Index](assets/readme/index.lighthouse.p2.png)<br>
-##### Guide
-![Score](assets/readme/score.lighthouse.early.p2.png)<br>
 
 ### Manual Testing
  - I have tested this website on diffrent web browsers.
  - I have tested that the website is responsive to diffrent screen sizes. It works in multiple diffrent screen sizes.
- - I have tested the links in the nav and the footer. they all work
+ - I have tested the links in the the footer. they all work
  - I have tested the text and its fonts are readable and scroll where necessary.
 
 #### Desktop
@@ -127,17 +125,12 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 | --- | --- |
 |![Chrome](assets/readme/chrome.phone.p2.png)|![Firefox](assets/readme/firefox.phone.p2.png)|
 
-### Unresolved Bugs
+### Fixed Bugs
+
 #### The Half And Half 2.0
   - Sometimes when pressing the button post having pressed it the first time the test area shrinks to half, see "oversized Test Area" bugfix
   - other times it remains large, susspect it has to do with clicking the yellow screen
-
-#### Score log
-   - JavaScript works fine in index yet causes errors in score.html
-   - Something in the code in JS is causing the problem
-   - Have tried multiple solutions yet is still unresolved for now
-
-### Fixed Bugs
+  - resolved by adjusting the height of the test area using Js
 
 #### Halved Area
   - In index.html the test area ended up in half often.
@@ -180,7 +173,7 @@ Using lighthouse to rate the accesability of the webpage. Results are:
 5. From the source drop down list under the heading Build and deployment, select main.
 6. The page will then provide the link to the website.
 
-The live link can be found here - [Reaction Speed](https://savvietarmac.github.io/Reaction-Speed.p2/)
+The live link can be found here - [Reaction Speed](https://savvietarmac.github.io/Reaction-Speed-p2/)
 
 
 ***
